@@ -1,0 +1,45 @@
+services:
+  intent_recognition:
+    command: --intent-graph /profiles/en/intent_graph.pickle.gz --debug --host mqtt
+      --port 12183 --site-id speaker --site-id speaker --replace-numbers --language
+      en_US --casing lower --converters-dir /profiles/en/converters
+    depends_on:
+    - mqtt
+    image: rhasspy/rhasspy-nlu-hermes
+    tty: true
+    volumes:
+    - /profiles:/profiles
+  mqtt:
+    command: -p 12183
+    entrypoint: mosquitto
+    image: eclipse-mosquitto
+    ports:
+    - 12183:12183
+    tty: true
+  speech_to_text:
+    command: --model-type nnet3 --model-dir /profiles/en/kaldi/model --graph-dir /profiles/en/kaldi/model/graph
+      --debug --host mqtt --port 12183 --site-id speaker --site-id speaker --dictionary
+      /profiles/en/kaldi/dictionary.txt --language-model /profiles/en/kaldi/language_model.txt
+      --language-model-type text_fst --base-dictionary /profiles/en/kaldi/base_dictionary.txt
+      --base-dictionary /profiles/en/kaldi_custom_words.txt --dictionary-casing lower
+      --g2p-model /profiles/en/kaldi/g2p.fst --unknown-words /profiles/en/kaldi_unknown_words.txt
+      --base-language-model-fst /profiles/en/kaldi/base_language_model.fst --base-language-model-weight
+      0 --mixed-language-model-fst /profiles/en/kaldi/mixed.fst --voice-skip-seconds
+      0 --voice-min-seconds 1 --voice-max-seconds 20 --voice-speech-seconds 0.3 --voice-silence-seconds
+      0.5 --voice-before-seconds 0.5 --voice-sensitivity 1 --voice-silence-method
+      vad_only
+    depends_on:
+    - mqtt
+    image: rhasspy/rhasspy-asr-kaldi-hermes
+    tty: true
+    volumes:
+    - /profiles:/profiles
+  text_to_speech:
+    command: --tts-command 'espeak --stdout -v {lang}' --voices-command 'espeak --voices
+      | tail -n +2 | awk '"'"'{ print $2,$4 }'"'"'' --language en-gb --volume 1 --debug
+      --host mqtt --port 12183 --site-id speaker
+    depends_on:
+    - mqtt
+    image: rhasspy/rhasspy-tts-cli-hermes
+    tty: true
+version: '2'

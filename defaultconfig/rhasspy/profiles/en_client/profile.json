@@ -1,0 +1,70 @@
+{
+    "dialogue": {
+        "satellite_site_ids": "speaker",
+        "system": "rhasspy",
+        "volume": "1"
+    },
+    "handle": {
+        "satellite_site_ids": "speaker",
+        "system": "hass"
+    },
+    "home_assistant": {
+        "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI0NWM5NTAwMjlkYjg0MjZmOTZlYTE0M2ZlMjQ0ODFjYyIsImlhdCI6MTYyNDAwMzYwMiwiZXhwIjoxOTM5MzYzNjAyfQ.mi8QwUF5EXCGaWUMynZ4Rn7RLMv2RazTa44-NGaf16c",
+        "url": "http://192.168.0.159:8123/"
+    },
+    "intent": {
+        "remote": {
+            "url": "http://192.168.0.159:12101/api/text-to-intent"
+        },
+        "satellite_site_ids": "speaker",
+        "system": "remote"
+    },
+    "microphone": {
+        "pyaudio": {
+            "device": "0",
+            "siteId": "speaker"
+        },
+        "system": "pyaudio"
+    },
+    "mqtt": {
+        "site_id": "speaker"
+    },
+    "sounds": {
+        "aplay": {
+            "device": "default",
+            "volume": "1"
+        },
+        "system": "aplay"
+    },
+    "speech_to_text": {
+        "remote": {
+            "url": "http://192.168.0.159:12101/api/speech-to-text"
+        },
+        "satellite_site_ids": "speaker",
+        "system": "remote"
+    },
+    "text_to_speech": {
+        "espeak": {
+            "voice": "en-gb",
+            "volume": "1"
+        },
+        "larynx": {
+            "default_voice": "blizzard_fls"
+        },
+        "nanotts": {
+            "language": "en-GB",
+            "volume": "1"
+        },
+        "picotts": {
+            "volume": "1"
+        },
+        "remote": {
+            "url": "http://192.168.0.159:12101/api/text-to-speech?play=false"
+        },
+        "system": "espeak"
+    },
+    "wake": {
+        "satellite_site_ids": "speaker",
+        "system": "porcupine"
+    }
+}

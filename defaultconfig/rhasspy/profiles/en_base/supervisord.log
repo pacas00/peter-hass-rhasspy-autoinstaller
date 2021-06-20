@@ -1,0 +1,1620 @@
+2021-06-18 15:25:03,199 INFO supervisord started with pid 173
+2021-06-18 15:25:04,206 INFO spawned: 'mqtt' with pid 189
+2021-06-18 15:25:05,262 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:26:14,588 WARN received SIGHUP indicating restart request
+2021-06-18 15:26:14,590 INFO waiting for mqtt to die
+2021-06-18 15:26:14,657 INFO stopped: mqtt (exit status 0)
+2021-06-18 15:26:14,703 INFO supervisord started with pid 173
+2021-06-18 15:26:15,714 INFO spawned: 'mqtt' with pid 211
+2021-06-18 15:26:15,728 INFO spawned: 'microphone' with pid 212
+2021-06-18 15:26:15,740 INFO spawned: 'speakers' with pid 213
+2021-06-18 15:26:16,720 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:26:16,721 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:26:17,188 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:26:37,975 WARN received SIGHUP indicating restart request
+2021-06-18 15:26:37,976 INFO waiting for mqtt, microphone, speakers to die
+2021-06-18 15:26:37,979 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 15:26:37,984 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 15:26:37,994 INFO stopped: mqtt (exit status 0)
+2021-06-18 15:26:38,046 INFO supervisord started with pid 173
+2021-06-18 15:26:39,056 INFO spawned: 'mqtt' with pid 241
+2021-06-18 15:26:39,068 INFO spawned: 'microphone' with pid 242
+2021-06-18 15:26:39,079 INFO spawned: 'speakers' with pid 243
+2021-06-18 15:26:40,053 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:26:40,540 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:26:40,541 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:34:44,987 WARN received SIGHUP indicating restart request
+2021-06-18 15:34:45,008 INFO waiting for mqtt, microphone, speakers to die
+2021-06-18 15:34:45,031 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 15:34:45,046 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 15:34:45,211 INFO stopped: mqtt (exit status 0)
+2021-06-18 15:34:45,301 INFO supervisord started with pid 173
+2021-06-18 15:34:46,369 INFO spawned: 'mqtt' with pid 270
+2021-06-18 15:34:46,385 INFO spawned: 'microphone' with pid 271
+2021-06-18 15:34:46,409 INFO spawned: 'speech_to_text' with pid 272
+2021-06-18 15:34:46,427 INFO spawned: 'dialogue' with pid 273
+2021-06-18 15:34:46,439 INFO spawned: 'wake_word' with pid 274
+2021-06-18 15:34:46,455 INFO spawned: 'intent_recognition' with pid 275
+2021-06-18 15:34:46,472 INFO spawned: 'intent_handling' with pid 276
+2021-06-18 15:34:46,487 INFO spawned: 'text_to_speech' with pid 277
+2021-06-18 15:34:46,497 INFO spawned: 'speakers' with pid 278
+2021-06-18 15:34:48,184 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:34:48,191 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:34:48,192 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:34:48,194 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:34:48,194 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:34:48,195 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:34:48,196 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:34:48,197 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:34:48,198 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:35:22,422 WARN received SIGHUP indicating restart request
+2021-06-18 15:35:22,425 INFO waiting for microphone, speech_to_text, dialogue, mqtt, wake_word, intent_recognition, intent_handling, text_to_speech, speakers to die
+2021-06-18 15:35:22,429 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 15:35:22,437 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 15:35:22,443 INFO stopped: intent_handling (terminated by SIGTERM)
+2021-06-18 15:35:22,449 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 15:35:22,460 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 15:35:22,469 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 15:35:22,478 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 15:35:22,483 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 15:35:22,512 INFO stopped: mqtt (exit status 0)
+2021-06-18 15:35:22,576 INFO supervisord started with pid 173
+2021-06-18 15:35:23,585 INFO spawned: 'mqtt' with pid 355
+2021-06-18 15:35:23,601 INFO spawned: 'dialogue' with pid 356
+2021-06-18 15:35:23,628 INFO spawned: 'speech_to_text' with pid 357
+2021-06-18 15:35:23,642 INFO spawned: 'speakers' with pid 358
+2021-06-18 15:35:23,670 INFO spawned: 'wake_word' with pid 359
+2021-06-18 15:35:23,691 INFO spawned: 'intent_recognition' with pid 363
+2021-06-18 15:35:23,714 INFO spawned: 'text_to_speech' with pid 367
+2021-06-18 15:35:23,737 INFO spawned: 'microphone' with pid 369
+2021-06-18 15:35:25,565 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:35:25,566 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:35:25,566 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:35:25,566 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:35:25,567 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:35:25,567 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:35:25,568 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:35:25,569 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:36:36,643 WARN received SIGHUP indicating restart request
+2021-06-18 15:36:36,657 INFO waiting for dialogue, speech_to_text, speakers, mqtt, wake_word, intent_recognition, text_to_speech, microphone to die
+2021-06-18 15:36:36,685 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 15:36:36,690 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 15:36:36,694 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 15:36:36,699 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 15:36:36,703 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 15:36:36,711 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 15:36:36,723 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 15:36:36,983 INFO stopped: mqtt (exit status 0)
+2021-06-18 15:36:37,065 INFO supervisord started with pid 173
+2021-06-18 15:36:38,074 INFO spawned: 'mqtt' with pid 652
+2021-06-18 15:36:38,091 INFO spawned: 'dialogue' with pid 653
+2021-06-18 15:36:38,123 INFO spawned: 'speech_to_text' with pid 654
+2021-06-18 15:36:38,140 INFO spawned: 'speakers' with pid 655
+2021-06-18 15:36:38,158 INFO spawned: 'wake_word' with pid 656
+2021-06-18 15:36:38,168 INFO spawned: 'intent_recognition' with pid 657
+2021-06-18 15:36:38,178 INFO spawned: 'text_to_speech' with pid 659
+2021-06-18 15:36:38,199 INFO spawned: 'microphone' with pid 661
+2021-06-18 15:36:39,891 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:36:39,892 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:36:39,893 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:36:39,893 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:36:39,894 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:36:39,894 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:36:39,894 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:36:39,895 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:50:35,551 WARN received SIGHUP indicating restart request
+2021-06-18 15:50:35,554 INFO waiting for dialogue, speech_to_text, speakers, mqtt, wake_word, intent_recognition, text_to_speech, microphone to die
+2021-06-18 15:50:35,556 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 15:50:35,560 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 15:50:35,573 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 15:50:35,579 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 15:50:35,591 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 15:50:35,596 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 15:50:35,607 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 15:50:35,639 INFO stopped: mqtt (exit status 0)
+2021-06-18 15:50:35,697 INFO supervisord started with pid 173
+2021-06-18 15:50:36,706 INFO spawned: 'mqtt' with pid 730
+2021-06-18 15:50:36,722 INFO spawned: 'dialogue' with pid 731
+2021-06-18 15:50:36,736 INFO spawned: 'speech_to_text' with pid 732
+2021-06-18 15:50:36,747 INFO spawned: 'speakers' with pid 733
+2021-06-18 15:50:36,758 INFO spawned: 'wake_word' with pid 734
+2021-06-18 15:50:36,769 INFO spawned: 'intent_recognition' with pid 735
+2021-06-18 15:50:36,780 INFO spawned: 'text_to_speech' with pid 736
+2021-06-18 15:50:36,813 INFO spawned: 'microphone' with pid 737
+2021-06-18 15:50:38,673 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:50:38,674 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:50:38,674 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:50:38,675 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:50:38,676 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:50:38,677 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:50:38,678 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:50:38,678 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:51:14,366 WARN received SIGHUP indicating restart request
+2021-06-18 15:51:14,369 INFO waiting for dialogue, speech_to_text, speakers, mqtt, wake_word, intent_recognition, text_to_speech, microphone to die
+2021-06-18 15:51:14,390 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 15:51:14,396 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 15:51:14,409 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 15:51:14,415 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 15:51:14,430 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 15:51:14,433 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 15:51:14,437 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 15:51:14,447 INFO stopped: mqtt (exit status 0)
+2021-06-18 15:51:14,510 INFO supervisord started with pid 173
+2021-06-18 15:51:15,521 INFO spawned: 'mqtt' with pid 817
+2021-06-18 15:51:15,537 INFO spawned: 'dialogue' with pid 818
+2021-06-18 15:51:15,554 INFO spawned: 'speech_to_text' with pid 819
+2021-06-18 15:51:15,567 INFO spawned: 'speakers' with pid 820
+2021-06-18 15:51:15,593 INFO spawned: 'wake_word' with pid 821
+2021-06-18 15:51:15,605 INFO spawned: 'intent_recognition' with pid 823
+2021-06-18 15:51:15,630 INFO spawned: 'text_to_speech' with pid 828
+2021-06-18 15:51:15,649 INFO spawned: 'microphone' with pid 831
+2021-06-18 15:51:17,287 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:51:17,288 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:51:17,289 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:51:17,290 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:51:17,290 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:51:17,291 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:51:17,291 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 15:51:17,292 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:01:16,609 WARN received SIGHUP indicating restart request
+2021-06-18 16:01:16,612 INFO waiting for dialogue, speech_to_text, speakers, mqtt, wake_word, intent_recognition, text_to_speech, microphone to die
+2021-06-18 16:01:16,614 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 16:01:16,634 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 16:01:16,640 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 16:01:16,649 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 16:01:16,665 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 16:01:16,679 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 16:01:16,682 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 16:01:16,698 INFO stopped: mqtt (exit status 0)
+2021-06-18 16:01:16,754 INFO supervisord started with pid 173
+2021-06-18 16:01:17,766 INFO spawned: 'mqtt' with pid 903
+2021-06-18 16:01:17,779 INFO spawned: 'microphone' with pid 904
+2021-06-18 16:01:17,793 INFO spawned: 'speech_to_text' with pid 905
+2021-06-18 16:01:17,807 INFO spawned: 'dialogue' with pid 906
+2021-06-18 16:01:17,818 INFO spawned: 'wake_word' with pid 907
+2021-06-18 16:01:17,829 INFO spawned: 'intent_recognition' with pid 908
+2021-06-18 16:01:17,844 INFO spawned: 'intent_handling' with pid 909
+2021-06-18 16:01:17,875 INFO spawned: 'text_to_speech' with pid 910
+2021-06-18 16:01:17,893 INFO spawned: 'speakers' with pid 914
+2021-06-18 16:01:19,748 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:01:19,748 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:01:19,749 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:01:19,750 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:01:19,751 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:01:19,751 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:01:19,752 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:01:19,753 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:01:19,753 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:02:39,987 WARN received SIGHUP indicating restart request
+2021-06-18 16:02:39,990 INFO waiting for microphone, speech_to_text, dialogue, mqtt, wake_word, intent_recognition, intent_handling, text_to_speech, speakers to die
+2021-06-18 16:02:39,994 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 16:02:40,002 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 16:02:40,017 INFO stopped: intent_handling (terminated by SIGTERM)
+2021-06-18 16:02:40,025 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 16:02:40,036 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 16:02:40,046 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 16:02:40,053 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 16:02:40,058 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 16:02:40,082 INFO stopped: mqtt (exit status 0)
+2021-06-18 16:02:40,144 INFO supervisord started with pid 173
+2021-06-18 16:02:41,152 INFO spawned: 'mqtt' with pid 998
+2021-06-18 16:02:41,164 INFO spawned: 'microphone' with pid 999
+2021-06-18 16:02:41,180 INFO spawned: 'speech_to_text' with pid 1000
+2021-06-18 16:02:41,197 INFO spawned: 'dialogue' with pid 1001
+2021-06-18 16:02:41,209 INFO spawned: 'wake_word' with pid 1002
+2021-06-18 16:02:41,245 INFO spawned: 'intent_recognition' with pid 1006
+2021-06-18 16:02:41,257 INFO spawned: 'intent_handling' with pid 1008
+2021-06-18 16:02:41,266 INFO spawned: 'text_to_speech' with pid 1010
+2021-06-18 16:02:41,282 INFO spawned: 'speakers' with pid 1014
+2021-06-18 16:02:43,141 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:02:43,141 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:02:43,142 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:02:43,142 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:02:43,143 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:02:43,143 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:02:43,144 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:02:43,144 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:02:43,145 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:04:24,321 WARN received SIGHUP indicating restart request
+2021-06-18 16:04:24,323 INFO waiting for microphone, speech_to_text, dialogue, mqtt, wake_word, intent_recognition, intent_handling, text_to_speech, speakers to die
+2021-06-18 16:04:24,325 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 16:04:24,336 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 16:04:24,343 INFO stopped: intent_handling (terminated by SIGTERM)
+2021-06-18 16:04:24,350 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 16:04:24,356 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 16:04:24,364 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 16:04:24,371 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 16:04:24,379 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 16:04:24,408 INFO stopped: mqtt (exit status 0)
+2021-06-18 16:04:24,457 INFO supervisord started with pid 173
+2021-06-18 16:04:25,467 INFO spawned: 'mqtt' with pid 1101
+2021-06-18 16:04:25,480 INFO spawned: 'microphone' with pid 1102
+2021-06-18 16:04:25,495 INFO spawned: 'speech_to_text' with pid 1103
+2021-06-18 16:04:25,507 INFO spawned: 'speakers' with pid 1104
+2021-06-18 16:04:25,525 INFO spawned: 'wake_word' with pid 1105
+2021-06-18 16:04:25,534 INFO spawned: 'intent_recognition' with pid 1106
+2021-06-18 16:04:25,570 INFO spawned: 'text_to_speech' with pid 1109
+2021-06-18 16:04:27,227 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:04:27,228 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:04:27,230 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:04:27,231 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:04:27,233 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:04:27,235 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:04:27,237 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:04:58,031 WARN received SIGHUP indicating restart request
+2021-06-18 16:04:58,033 INFO waiting for microphone, speech_to_text, speakers, mqtt, wake_word, intent_recognition, text_to_speech to die
+2021-06-18 16:04:58,058 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 16:04:58,063 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 16:04:58,077 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 16:04:58,081 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 16:04:58,085 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 16:04:58,097 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 16:04:58,115 INFO stopped: mqtt (exit status 0)
+2021-06-18 16:04:58,173 INFO supervisord started with pid 173
+2021-06-18 16:04:59,182 INFO spawned: 'mqtt' with pid 1174
+2021-06-18 16:04:59,200 INFO spawned: 'dialogue' with pid 1175
+2021-06-18 16:04:59,217 INFO spawned: 'speech_to_text' with pid 1176
+2021-06-18 16:04:59,242 INFO spawned: 'speakers' with pid 1177
+2021-06-18 16:04:59,264 INFO spawned: 'wake_word' with pid 1178
+2021-06-18 16:04:59,273 INFO spawned: 'intent_recognition' with pid 1180
+2021-06-18 16:04:59,307 INFO spawned: 'text_to_speech' with pid 1184
+2021-06-18 16:04:59,317 INFO spawned: 'microphone' with pid 1189
+2021-06-18 16:05:01,163 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:05:01,163 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:05:01,164 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:05:01,165 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:05:01,165 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:05:01,166 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:05:01,167 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:05:01,167 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:47:56,708 WARN received SIGHUP indicating restart request
+2021-06-18 16:47:56,710 INFO waiting for dialogue, speech_to_text, speakers, mqtt, wake_word, intent_recognition, text_to_speech, microphone to die
+2021-06-18 16:47:56,718 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 16:47:56,723 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 16:47:56,730 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 16:47:56,746 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 16:47:56,759 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 16:47:56,765 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 16:47:56,776 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 16:47:57,800 INFO stopped: mqtt (exit status 0)
+2021-06-18 16:47:57,884 INFO supervisord started with pid 173
+2021-06-18 16:47:58,894 INFO spawned: 'mqtt' with pid 1297
+2021-06-18 16:47:58,908 INFO spawned: 'dialogue' with pid 1298
+2021-06-18 16:47:58,924 INFO spawned: 'speech_to_text' with pid 1299
+2021-06-18 16:47:58,937 INFO spawned: 'speakers' with pid 1300
+2021-06-18 16:47:58,949 INFO spawned: 'wake_word' with pid 1301
+2021-06-18 16:47:58,975 INFO spawned: 'intent_recognition' with pid 1302
+2021-06-18 16:47:59,023 INFO spawned: 'text_to_speech' with pid 1309
+2021-06-18 16:47:59,039 INFO spawned: 'microphone' with pid 1311
+2021-06-18 16:48:00,845 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:48:00,846 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:48:00,846 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:48:00,847 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:48:00,847 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:48:00,848 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:48:00,848 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:48:00,849 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:59:00,125 WARN received SIGHUP indicating restart request
+2021-06-18 16:59:00,127 INFO waiting for dialogue, speech_to_text, speakers, mqtt, wake_word, intent_recognition, text_to_speech, microphone to die
+2021-06-18 16:59:00,129 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 16:59:00,152 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 16:59:00,157 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 16:59:00,166 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 16:59:00,172 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 16:59:00,186 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 16:59:00,194 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 16:59:00,216 INFO stopped: mqtt (exit status 0)
+2021-06-18 16:59:00,262 INFO supervisord started with pid 173
+2021-06-18 16:59:01,271 INFO spawned: 'mqtt' with pid 1386
+2021-06-18 16:59:01,288 INFO spawned: 'dialogue' with pid 1387
+2021-06-18 16:59:01,306 INFO spawned: 'speech_to_text' with pid 1388
+2021-06-18 16:59:01,320 INFO spawned: 'speakers' with pid 1389
+2021-06-18 16:59:01,336 INFO spawned: 'wake_word' with pid 1390
+2021-06-18 16:59:01,347 INFO spawned: 'intent_recognition' with pid 1391
+2021-06-18 16:59:01,368 INFO spawned: 'text_to_speech' with pid 1394
+2021-06-18 16:59:01,377 INFO spawned: 'microphone' with pid 1396
+2021-06-18 16:59:03,026 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:59:03,026 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:59:03,027 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:59:03,028 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:59:03,029 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:59:03,030 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:59:03,030 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 16:59:03,031 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:05:34,332 WARN received SIGHUP indicating restart request
+2021-06-18 17:05:34,334 INFO waiting for dialogue, speech_to_text, speakers, mqtt, wake_word, intent_recognition, text_to_speech, microphone to die
+2021-06-18 17:05:34,338 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 17:05:34,370 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 17:05:34,375 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 17:05:34,380 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 17:05:34,392 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 17:05:34,398 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 17:05:34,410 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 17:05:34,421 INFO stopped: mqtt (exit status 0)
+2021-06-18 17:05:34,476 INFO supervisord started with pid 173
+2021-06-18 17:05:35,485 INFO spawned: 'mqtt' with pid 1469
+2021-06-18 17:05:35,497 INFO spawned: 'microphone' with pid 1470
+2021-06-18 17:05:35,511 INFO spawned: 'speech_to_text' with pid 1471
+2021-06-18 17:05:35,524 INFO spawned: 'dialogue' with pid 1472
+2021-06-18 17:05:35,535 INFO spawned: 'wake_word' with pid 1473
+2021-06-18 17:05:35,557 INFO spawned: 'intent_recognition' with pid 1474
+2021-06-18 17:05:35,593 INFO spawned: 'intent_handling' with pid 1478
+2021-06-18 17:05:35,603 INFO spawned: 'text_to_speech' with pid 1480
+2021-06-18 17:05:35,612 INFO spawned: 'speakers' with pid 1481
+2021-06-18 17:05:37,462 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:05:37,462 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:05:37,463 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:05:37,463 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:05:37,464 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:05:37,464 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:05:37,465 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:05:37,466 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:05:37,466 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:06:01,110 WARN received SIGHUP indicating restart request
+2021-06-18 17:06:01,112 INFO waiting for microphone, speech_to_text, dialogue, mqtt, wake_word, intent_recognition, intent_handling, text_to_speech, speakers to die
+2021-06-18 17:06:01,115 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 17:06:01,122 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 17:06:01,129 INFO stopped: intent_handling (terminated by SIGTERM)
+2021-06-18 17:06:01,139 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 17:06:01,147 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 17:06:01,158 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 17:06:01,163 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 17:06:01,184 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 17:06:01,288 INFO stopped: mqtt (exit status 0)
+2021-06-18 17:06:01,336 INFO supervisord started with pid 173
+2021-06-18 17:06:02,345 INFO spawned: 'mqtt' with pid 1558
+2021-06-18 17:06:02,358 INFO spawned: 'microphone' with pid 1559
+2021-06-18 17:06:02,373 INFO spawned: 'speech_to_text' with pid 1560
+2021-06-18 17:06:02,388 INFO spawned: 'dialogue' with pid 1561
+2021-06-18 17:06:02,410 INFO spawned: 'wake_word' with pid 1562
+2021-06-18 17:06:02,432 INFO spawned: 'intent_recognition' with pid 1564
+2021-06-18 17:06:02,466 INFO spawned: 'intent_handling' with pid 1570
+2021-06-18 17:06:02,496 INFO spawned: 'text_to_speech' with pid 1575
+2021-06-18 17:06:02,516 INFO spawned: 'speakers' with pid 1578
+2021-06-18 17:06:04,324 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:06:04,325 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:06:04,326 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:06:04,328 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:06:04,329 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:06:04,330 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:06:04,331 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:06:04,332 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:06:04,333 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:07:04,036 WARN received SIGHUP indicating restart request
+2021-06-18 17:07:04,038 INFO waiting for microphone, speech_to_text, dialogue, mqtt, wake_word, intent_recognition, intent_handling, text_to_speech, speakers to die
+2021-06-18 17:07:04,048 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 17:07:04,070 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 17:07:04,074 INFO stopped: intent_handling (terminated by SIGTERM)
+2021-06-18 17:07:04,086 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 17:07:04,101 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 17:07:04,104 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 17:07:04,108 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 17:07:04,112 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 17:07:04,131 INFO stopped: mqtt (exit status 0)
+2021-06-18 17:07:04,183 INFO supervisord started with pid 173
+2021-06-18 17:07:05,194 INFO spawned: 'mqtt' with pid 1649
+2021-06-18 17:07:05,208 INFO spawned: 'microphone' with pid 1650
+2021-06-18 17:07:05,224 INFO spawned: 'speech_to_text' with pid 1651
+2021-06-18 17:07:05,236 INFO spawned: 'dialogue' with pid 1652
+2021-06-18 17:07:05,246 INFO spawned: 'wake_word' with pid 1653
+2021-06-18 17:07:05,256 INFO spawned: 'intent_recognition' with pid 1654
+2021-06-18 17:07:05,283 INFO spawned: 'intent_handling' with pid 1657
+2021-06-18 17:07:05,308 INFO spawned: 'text_to_speech' with pid 1660
+2021-06-18 17:07:05,338 INFO spawned: 'speakers' with pid 1662
+2021-06-18 17:07:07,170 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:07:07,170 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:07:07,171 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:07:07,171 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:07:07,171 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:07:07,172 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:07:07,172 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:07:07,172 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:07:07,173 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:21:19,604 WARN received SIGHUP indicating restart request
+2021-06-18 17:21:19,611 INFO waiting for microphone, speech_to_text, dialogue, mqtt, wake_word, intent_recognition, intent_handling, text_to_speech, speakers to die
+2021-06-18 17:21:19,639 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 17:21:19,662 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 17:21:19,665 INFO stopped: intent_handling (terminated by SIGTERM)
+2021-06-18 17:21:19,668 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 17:21:19,676 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 17:21:19,681 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 17:21:19,689 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 17:21:19,693 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 17:21:19,842 INFO stopped: mqtt (exit status 0)
+2021-06-18 17:21:19,896 INFO supervisord started with pid 173
+2021-06-18 17:21:20,972 INFO spawned: 'mqtt' with pid 1739
+2021-06-18 17:21:20,985 INFO spawned: 'microphone' with pid 1740
+2021-06-18 17:21:21,000 INFO spawned: 'speech_to_text' with pid 1741
+2021-06-18 17:21:21,016 INFO spawned: 'dialogue' with pid 1742
+2021-06-18 17:21:21,028 INFO spawned: 'wake_word' with pid 1743
+2021-06-18 17:21:21,039 INFO spawned: 'intent_recognition' with pid 1744
+2021-06-18 17:21:21,051 INFO spawned: 'intent_handling' with pid 1745
+2021-06-18 17:21:21,059 INFO spawned: 'text_to_speech' with pid 1746
+2021-06-18 17:21:21,067 INFO spawned: 'speakers' with pid 1747
+2021-06-18 17:21:22,805 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:21:22,806 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:21:22,806 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:21:22,807 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:21:22,807 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:21:22,808 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:21:22,808 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:21:22,809 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:21:22,809 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:22:40,272 WARN received SIGHUP indicating restart request
+2021-06-18 17:22:40,274 INFO waiting for microphone, speech_to_text, dialogue, mqtt, wake_word, intent_recognition, intent_handling, text_to_speech, speakers to die
+2021-06-18 17:22:40,286 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 17:22:40,314 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 17:22:40,318 INFO stopped: intent_handling (terminated by SIGTERM)
+2021-06-18 17:22:40,333 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 17:22:40,338 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 17:22:40,350 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 17:22:40,355 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 17:22:40,360 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 17:22:40,386 INFO stopped: mqtt (exit status 0)
+2021-06-18 17:22:40,459 INFO supervisord started with pid 173
+2021-06-18 17:22:41,468 INFO spawned: 'mqtt' with pid 1827
+2021-06-18 17:22:41,484 INFO spawned: 'microphone' with pid 1828
+2021-06-18 17:22:41,502 INFO spawned: 'speech_to_text' with pid 1829
+2021-06-18 17:22:41,523 INFO spawned: 'dialogue' with pid 1830
+2021-06-18 17:22:41,534 INFO spawned: 'wake_word' with pid 1831
+2021-06-18 17:22:41,555 INFO spawned: 'intent_recognition' with pid 1833
+2021-06-18 17:22:41,573 INFO spawned: 'intent_handling' with pid 1836
+2021-06-18 17:22:41,585 INFO spawned: 'text_to_speech' with pid 1838
+2021-06-18 17:22:41,603 INFO spawned: 'speakers' with pid 1845
+2021-06-18 17:22:43,438 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:22:43,439 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:22:43,440 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:22:43,441 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:22:43,442 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:22:43,442 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:22:43,443 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:22:43,443 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:22:43,444 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:27:07,269 INFO supervisord started with pid 174
+2021-06-18 17:27:08,284 INFO spawned: 'mqtt' with pid 190
+2021-06-18 17:27:08,295 INFO spawned: 'microphone' with pid 191
+2021-06-18 17:27:08,306 INFO spawned: 'speech_to_text' with pid 192
+2021-06-18 17:27:08,324 INFO spawned: 'dialogue' with pid 193
+2021-06-18 17:27:08,347 INFO spawned: 'wake_word' with pid 194
+2021-06-18 17:27:08,371 INFO spawned: 'intent_recognition' with pid 195
+2021-06-18 17:27:08,399 INFO spawned: 'intent_handling' with pid 196
+2021-06-18 17:27:08,413 INFO spawned: 'text_to_speech' with pid 198
+2021-06-18 17:27:08,423 INFO spawned: 'speakers' with pid 201
+2021-06-18 17:27:09,462 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:27:09,463 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:27:09,464 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:27:09,465 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:27:09,466 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:27:09,467 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:27:09,468 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:27:09,469 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:27:09,470 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:31:40,505 WARN received SIGHUP indicating restart request
+2021-06-18 17:31:40,507 INFO waiting for microphone, speech_to_text, dialogue, mqtt, wake_word, intent_recognition, intent_handling, text_to_speech, speakers to die
+2021-06-18 17:31:40,510 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 17:31:40,517 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 17:31:40,531 INFO stopped: intent_handling (terminated by SIGTERM)
+2021-06-18 17:31:40,542 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 17:31:40,550 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 17:31:40,558 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 17:31:40,565 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 17:31:40,586 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 17:31:40,641 INFO stopped: mqtt (exit status 0)
+2021-06-18 17:31:40,686 INFO supervisord started with pid 174
+2021-06-18 17:31:41,696 INFO spawned: 'mqtt' with pid 304
+2021-06-18 17:31:41,711 INFO spawned: 'microphone' with pid 305
+2021-06-18 17:31:41,728 INFO spawned: 'speech_to_text' with pid 306
+2021-06-18 17:31:41,745 INFO spawned: 'dialogue' with pid 307
+2021-06-18 17:31:41,757 INFO spawned: 'wake_word' with pid 308
+2021-06-18 17:31:41,766 INFO spawned: 'intent_recognition' with pid 309
+2021-06-18 17:31:41,804 INFO spawned: 'intent_handling' with pid 310
+2021-06-18 17:31:41,812 INFO spawned: 'text_to_speech' with pid 314
+2021-06-18 17:31:41,842 INFO spawned: 'speakers' with pid 321
+2021-06-18 17:31:42,858 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:31:42,859 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:31:42,859 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:31:42,860 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:31:42,861 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:31:42,862 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:31:42,863 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:31:42,864 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:31:42,865 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:33:48,828 WARN received SIGHUP indicating restart request
+2021-06-18 17:33:48,830 INFO waiting for microphone, speech_to_text, dialogue, mqtt, wake_word, intent_recognition, intent_handling, text_to_speech, speakers to die
+2021-06-18 17:33:48,832 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 17:33:48,837 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 17:33:48,844 INFO stopped: intent_handling (terminated by SIGTERM)
+2021-06-18 17:33:48,852 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 17:33:48,859 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 17:33:48,870 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 17:33:48,878 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 17:33:48,884 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 17:33:48,906 INFO stopped: mqtt (exit status 0)
+2021-06-18 17:33:48,957 INFO supervisord started with pid 174
+2021-06-18 17:33:49,966 INFO spawned: 'mqtt' with pid 393
+2021-06-18 17:33:49,980 INFO spawned: 'microphone' with pid 394
+2021-06-18 17:33:49,996 INFO spawned: 'speech_to_text' with pid 395
+2021-06-18 17:33:50,014 INFO spawned: 'dialogue' with pid 396
+2021-06-18 17:33:50,033 INFO spawned: 'wake_word' with pid 397
+2021-06-18 17:33:50,044 INFO spawned: 'intent_recognition' with pid 398
+2021-06-18 17:33:50,095 INFO spawned: 'intent_handling' with pid 405
+2021-06-18 17:33:50,104 INFO spawned: 'text_to_speech' with pid 408
+2021-06-18 17:33:50,118 INFO spawned: 'speakers' with pid 412
+2021-06-18 17:33:50,962 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:33:51,966 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:33:51,967 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:33:51,967 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:33:51,968 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:33:51,968 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:33:51,969 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:33:51,969 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:33:51,970 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:34:25,011 WARN received SIGHUP indicating restart request
+2021-06-18 17:34:25,012 INFO waiting for microphone, speech_to_text, dialogue, mqtt, wake_word, intent_recognition, intent_handling, text_to_speech, speakers to die
+2021-06-18 17:34:25,015 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 17:34:25,025 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 17:34:25,031 INFO stopped: intent_handling (terminated by SIGTERM)
+2021-06-18 17:34:25,037 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 17:34:25,046 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 17:34:25,052 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 17:34:25,062 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 17:34:25,083 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 17:34:25,187 INFO stopped: mqtt (exit status 0)
+2021-06-18 17:34:25,230 INFO supervisord started with pid 174
+2021-06-18 17:34:26,239 INFO spawned: 'mqtt' with pid 482
+2021-06-18 17:34:26,253 INFO spawned: 'microphone' with pid 483
+2021-06-18 17:34:26,269 INFO spawned: 'speech_to_text' with pid 484
+2021-06-18 17:34:26,283 INFO spawned: 'dialogue' with pid 485
+2021-06-18 17:34:26,293 INFO spawned: 'wake_word' with pid 486
+2021-06-18 17:34:26,335 INFO spawned: 'intent_recognition' with pid 487
+2021-06-18 17:34:26,360 INFO spawned: 'intent_handling' with pid 493
+2021-06-18 17:34:26,383 INFO spawned: 'text_to_speech' with pid 496
+2021-06-18 17:34:26,400 INFO spawned: 'speakers' with pid 500
+2021-06-18 17:34:28,224 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:34:28,225 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:34:28,226 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:34:28,226 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:34:28,226 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:34:28,227 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:34:28,227 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:34:28,228 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:34:28,228 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:35:05,783 WARN received SIGHUP indicating restart request
+2021-06-18 17:35:05,785 INFO waiting for microphone, speech_to_text, dialogue, mqtt, wake_word, intent_recognition, intent_handling, text_to_speech, speakers to die
+2021-06-18 17:35:05,787 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 17:35:05,801 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 17:35:05,810 INFO stopped: intent_handling (terminated by SIGTERM)
+2021-06-18 17:35:05,829 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 17:35:05,846 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 17:35:05,874 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 17:35:05,884 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 17:35:05,908 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 17:35:05,919 INFO stopped: mqtt (exit status 0)
+2021-06-18 17:35:05,969 INFO supervisord started with pid 174
+2021-06-18 17:35:06,976 INFO spawned: 'mqtt' with pid 580
+2021-06-18 17:35:06,984 INFO spawned: 'microphone' with pid 581
+2021-06-18 17:35:06,995 INFO spawned: 'speech_to_text' with pid 582
+2021-06-18 17:35:07,027 INFO spawned: 'dialogue' with pid 583
+2021-06-18 17:35:07,036 INFO spawned: 'wake_word' with pid 584
+2021-06-18 17:35:07,055 INFO spawned: 'intent_recognition' with pid 585
+2021-06-18 17:35:07,076 INFO spawned: 'intent_handling' with pid 588
+2021-06-18 17:35:07,086 INFO spawned: 'text_to_speech' with pid 591
+2021-06-18 17:35:07,116 INFO spawned: 'speakers' with pid 593
+2021-06-18 17:35:08,121 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:35:08,122 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:35:08,123 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:35:08,124 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:35:08,125 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:35:08,125 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:35:08,126 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:35:08,127 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:35:08,128 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:35:31,509 WARN received SIGHUP indicating restart request
+2021-06-18 17:35:31,511 INFO waiting for microphone, speech_to_text, dialogue, mqtt, wake_word, intent_recognition, intent_handling, text_to_speech, speakers to die
+2021-06-18 17:35:31,514 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 17:35:31,521 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 17:35:31,527 INFO stopped: intent_handling (terminated by SIGTERM)
+2021-06-18 17:35:31,531 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 17:35:31,540 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 17:35:31,550 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 17:35:31,555 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 17:35:31,559 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 17:35:31,581 INFO stopped: mqtt (exit status 0)
+2021-06-18 17:35:31,647 INFO supervisord started with pid 174
+2021-06-18 17:35:32,656 INFO spawned: 'mqtt' with pid 672
+2021-06-18 17:35:32,671 INFO spawned: 'microphone' with pid 673
+2021-06-18 17:35:32,689 INFO spawned: 'speech_to_text' with pid 674
+2021-06-18 17:35:32,706 INFO spawned: 'dialogue' with pid 675
+2021-06-18 17:35:32,721 INFO spawned: 'wake_word' with pid 676
+2021-06-18 17:35:32,774 INFO spawned: 'intent_recognition' with pid 679
+2021-06-18 17:35:32,786 INFO spawned: 'intent_handling' with pid 684
+2021-06-18 17:35:32,805 INFO spawned: 'text_to_speech' with pid 687
+2021-06-18 17:35:32,819 INFO spawned: 'speakers' with pid 690
+2021-06-18 17:35:34,628 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:35:34,629 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:35:34,630 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:35:34,630 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:35:34,630 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:35:34,631 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:35:34,631 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:35:34,632 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:35:34,632 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:36:22,683 WARN received SIGHUP indicating restart request
+2021-06-18 17:36:22,688 INFO waiting for microphone, speech_to_text, dialogue, mqtt, wake_word, intent_recognition, intent_handling, text_to_speech, speakers to die
+2021-06-18 17:36:22,699 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 17:36:22,702 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 17:36:22,718 INFO stopped: intent_handling (terminated by SIGTERM)
+2021-06-18 17:36:22,725 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 17:36:22,729 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 17:36:22,735 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 17:36:22,745 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 17:36:22,749 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 17:36:22,769 INFO stopped: mqtt (exit status 0)
+2021-06-18 17:36:22,860 INFO supervisord started with pid 174
+2021-06-18 17:36:23,867 INFO spawned: 'mqtt' with pid 774
+2021-06-18 17:36:23,876 INFO spawned: 'microphone' with pid 775
+2021-06-18 17:36:23,887 INFO spawned: 'speech_to_text' with pid 776
+2021-06-18 17:36:23,898 INFO spawned: 'dialogue' with pid 777
+2021-06-18 17:36:23,927 INFO spawned: 'wake_word' with pid 778
+2021-06-18 17:36:23,955 INFO spawned: 'intent_recognition' with pid 779
+2021-06-18 17:36:23,977 INFO spawned: 'intent_handling' with pid 781
+2021-06-18 17:36:23,993 INFO spawned: 'text_to_speech' with pid 784
+2021-06-18 17:36:24,003 INFO spawned: 'speakers' with pid 786
+2021-06-18 17:36:25,820 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:36:25,821 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:36:25,821 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:36:25,822 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:36:25,822 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:36:25,823 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:36:25,823 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:36:25,824 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:36:25,824 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:37:03,379 WARN received SIGHUP indicating restart request
+2021-06-18 17:37:03,380 INFO waiting for microphone, speech_to_text, dialogue, mqtt, wake_word, intent_recognition, intent_handling, text_to_speech, speakers to die
+2021-06-18 17:37:03,388 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 17:37:03,396 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 17:37:03,407 INFO stopped: intent_handling (terminated by SIGTERM)
+2021-06-18 17:37:03,415 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 17:37:03,427 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 17:37:03,443 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 17:37:03,449 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 17:37:03,456 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 17:37:03,473 INFO stopped: mqtt (exit status 0)
+2021-06-18 17:37:03,543 INFO supervisord started with pid 174
+2021-06-18 17:37:04,550 INFO spawned: 'mqtt' with pid 871
+2021-06-18 17:37:04,559 INFO spawned: 'microphone' with pid 872
+2021-06-18 17:37:04,571 INFO spawned: 'speech_to_text' with pid 873
+2021-06-18 17:37:04,582 INFO spawned: 'dialogue' with pid 874
+2021-06-18 17:37:04,592 INFO spawned: 'wake_word' with pid 875
+2021-06-18 17:37:04,619 INFO spawned: 'intent_recognition' with pid 876
+2021-06-18 17:37:04,650 INFO spawned: 'intent_handling' with pid 878
+2021-06-18 17:37:04,675 INFO spawned: 'text_to_speech' with pid 881
+2021-06-18 17:37:04,692 INFO spawned: 'speakers' with pid 886
+2021-06-18 17:37:06,533 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:37:06,534 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:37:06,535 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:37:06,536 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:37:06,536 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:37:06,537 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:37:06,537 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:37:06,538 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:37:06,538 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:38:03,693 WARN received SIGHUP indicating restart request
+2021-06-18 17:38:03,694 INFO waiting for microphone, speech_to_text, dialogue, mqtt, wake_word, intent_recognition, intent_handling, text_to_speech, speakers to die
+2021-06-18 17:38:03,696 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 17:38:03,703 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 17:38:03,726 INFO stopped: intent_handling (terminated by SIGTERM)
+2021-06-18 17:38:03,748 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 17:38:03,754 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 17:38:03,758 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 17:38:03,767 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 17:38:03,774 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 17:38:03,793 INFO stopped: mqtt (exit status 0)
+2021-06-18 17:38:03,861 INFO supervisord started with pid 174
+2021-06-18 17:38:04,869 INFO spawned: 'mqtt' with pid 963
+2021-06-18 17:38:04,878 INFO spawned: 'microphone' with pid 964
+2021-06-18 17:38:04,890 INFO spawned: 'speech_to_text' with pid 965
+2021-06-18 17:38:04,902 INFO spawned: 'dialogue' with pid 966
+2021-06-18 17:38:04,939 INFO spawned: 'wake_word' with pid 968
+2021-06-18 17:38:04,968 INFO spawned: 'intent_recognition' with pid 970
+2021-06-18 17:38:04,992 INFO spawned: 'intent_handling' with pid 973
+2021-06-18 17:38:05,095 INFO spawned: 'text_to_speech' with pid 990
+2021-06-18 17:38:05,122 INFO spawned: 'speakers' with pid 991
+2021-06-18 17:38:06,847 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:38:06,848 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:38:06,848 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:38:06,850 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:38:06,850 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:38:06,851 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:38:06,852 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:38:06,852 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:38:06,853 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:42:59,332 WARN received SIGHUP indicating restart request
+2021-06-18 17:42:59,349 INFO waiting for microphone, speech_to_text, dialogue, mqtt, wake_word, intent_recognition, intent_handling, text_to_speech, speakers to die
+2021-06-18 17:42:59,409 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 17:42:59,496 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 17:42:59,505 INFO stopped: intent_handling (terminated by SIGTERM)
+2021-06-18 17:42:59,509 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 17:42:59,518 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 17:42:59,525 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 17:42:59,531 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 17:42:59,534 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 17:42:59,590 INFO stopped: mqtt (exit status 0)
+2021-06-18 17:42:59,658 INFO supervisord started with pid 174
+2021-06-18 17:43:00,670 INFO spawned: 'mqtt' with pid 1059
+2021-06-18 17:43:00,683 INFO spawned: 'microphone' with pid 1060
+2021-06-18 17:43:00,700 INFO spawned: 'speech_to_text' with pid 1061
+2021-06-18 17:43:00,717 INFO spawned: 'dialogue' with pid 1062
+2021-06-18 17:43:00,732 INFO spawned: 'wake_word' with pid 1063
+2021-06-18 17:43:00,746 INFO spawned: 'intent_recognition' with pid 1064
+2021-06-18 17:43:00,769 INFO spawned: 'intent_handling' with pid 1065
+2021-06-18 17:43:00,780 INFO spawned: 'text_to_speech' with pid 1066
+2021-06-18 17:43:00,797 INFO spawned: 'speakers' with pid 1067
+2021-06-18 17:43:02,634 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:43:02,636 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:43:02,636 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:43:02,637 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:43:02,638 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:43:02,640 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:43:02,640 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:43:02,641 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:43:02,642 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:50:04,033 WARN received SIGHUP indicating restart request
+2021-06-18 17:50:04,035 INFO waiting for microphone, speech_to_text, dialogue, mqtt, wake_word, intent_recognition, intent_handling, text_to_speech, speakers to die
+2021-06-18 17:50:04,047 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 17:50:04,052 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 17:50:04,064 INFO stopped: intent_handling (terminated by SIGTERM)
+2021-06-18 17:50:04,072 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 17:50:04,088 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 17:50:04,103 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 17:50:04,108 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 17:50:04,135 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 17:50:04,241 INFO stopped: mqtt (exit status 0)
+2021-06-18 17:50:04,289 INFO supervisord started with pid 174
+2021-06-18 17:50:05,299 INFO spawned: 'mqtt' with pid 1150
+2021-06-18 17:50:05,314 INFO spawned: 'microphone' with pid 1151
+2021-06-18 17:50:05,332 INFO spawned: 'speech_to_text' with pid 1152
+2021-06-18 17:50:05,350 INFO spawned: 'dialogue' with pid 1153
+2021-06-18 17:50:05,361 INFO spawned: 'wake_word' with pid 1154
+2021-06-18 17:50:05,381 INFO spawned: 'intent_recognition' with pid 1156
+2021-06-18 17:50:05,416 INFO spawned: 'intent_handling' with pid 1162
+2021-06-18 17:50:05,440 INFO spawned: 'text_to_speech' with pid 1167
+2021-06-18 17:50:05,457 INFO spawned: 'speakers' with pid 1170
+2021-06-18 17:50:07,283 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:50:07,284 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:50:07,286 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:50:07,286 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:50:07,287 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:50:07,288 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:50:07,288 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:50:07,289 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 17:50:07,289 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:07:01,888 WARN received SIGHUP indicating restart request
+2021-06-18 18:07:01,890 INFO waiting for microphone, speech_to_text, dialogue, mqtt, wake_word, intent_recognition, intent_handling, text_to_speech, speakers to die
+2021-06-18 18:07:01,892 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 18:07:01,897 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 18:07:01,903 INFO stopped: intent_handling (terminated by SIGTERM)
+2021-06-18 18:07:01,913 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 18:07:01,920 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 18:07:01,931 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 18:07:01,938 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 18:07:01,964 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 18:07:02,065 INFO stopped: mqtt (exit status 0)
+2021-06-18 18:07:02,111 INFO supervisord started with pid 174
+2021-06-18 18:07:03,120 INFO spawned: 'mqtt' with pid 1313
+2021-06-18 18:07:03,134 INFO spawned: 'microphone' with pid 1314
+2021-06-18 18:07:03,151 INFO spawned: 'speech_to_text' with pid 1315
+2021-06-18 18:07:03,168 INFO spawned: 'dialogue' with pid 1316
+2021-06-18 18:07:03,182 INFO spawned: 'wake_word' with pid 1317
+2021-06-18 18:07:03,199 INFO spawned: 'intent_recognition' with pid 1320
+2021-06-18 18:07:03,216 INFO spawned: 'intent_handling' with pid 1323
+2021-06-18 18:07:03,228 INFO spawned: 'text_to_speech' with pid 1325
+2021-06-18 18:07:03,236 INFO spawned: 'speakers' with pid 1327
+2021-06-18 18:07:05,106 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:07:05,107 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:07:05,108 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:07:05,108 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:07:05,108 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:07:05,109 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:07:05,109 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:07:05,110 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:07:05,110 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:08:37,238 WARN received SIGHUP indicating restart request
+2021-06-18 18:08:37,240 INFO waiting for microphone, speech_to_text, dialogue, mqtt, wake_word, intent_recognition, intent_handling, text_to_speech, speakers to die
+2021-06-18 18:08:37,242 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 18:08:37,251 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 18:08:37,256 INFO stopped: intent_handling (terminated by SIGTERM)
+2021-06-18 18:08:37,267 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 18:08:37,280 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 18:08:37,284 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 18:08:37,289 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 18:08:37,306 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 18:08:37,409 INFO stopped: mqtt (exit status 0)
+2021-06-18 18:08:37,457 INFO supervisord started with pid 174
+2021-06-18 18:08:38,467 INFO spawned: 'mqtt' with pid 1430
+2021-06-18 18:08:38,480 INFO spawned: 'microphone' with pid 1431
+2021-06-18 18:08:38,498 INFO spawned: 'speech_to_text' with pid 1432
+2021-06-18 18:08:38,511 INFO spawned: 'dialogue' with pid 1433
+2021-06-18 18:08:38,522 INFO spawned: 'wake_word' with pid 1434
+2021-06-18 18:08:38,551 INFO spawned: 'intent_recognition' with pid 1437
+2021-06-18 18:08:38,566 INFO spawned: 'intent_handling' with pid 1440
+2021-06-18 18:08:38,583 INFO spawned: 'text_to_speech' with pid 1443
+2021-06-18 18:08:38,595 INFO spawned: 'speakers' with pid 1444
+2021-06-18 18:08:40,159 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:08:40,159 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:08:40,160 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:08:40,160 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:08:40,161 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:08:40,161 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:08:40,161 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:08:40,162 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:08:40,162 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:14:27,286 WARN received SIGHUP indicating restart request
+2021-06-18 18:14:27,288 INFO waiting for microphone, speech_to_text, dialogue, mqtt, wake_word, intent_recognition, intent_handling, text_to_speech, speakers to die
+2021-06-18 18:14:27,291 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 18:14:27,296 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 18:14:27,301 INFO stopped: intent_handling (terminated by SIGTERM)
+2021-06-18 18:14:27,306 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 18:14:27,317 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 18:14:27,326 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 18:14:27,335 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 18:14:27,342 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 18:14:27,365 INFO stopped: mqtt (exit status 0)
+2021-06-18 18:14:27,422 INFO supervisord started with pid 174
+2021-06-18 18:14:28,431 INFO spawned: 'mqtt' with pid 1544
+2021-06-18 18:14:28,446 INFO spawned: 'microphone' with pid 1545
+2021-06-18 18:14:28,463 INFO spawned: 'speech_to_text' with pid 1546
+2021-06-18 18:14:28,480 INFO spawned: 'dialogue' with pid 1547
+2021-06-18 18:14:28,504 INFO spawned: 'wake_word' with pid 1548
+2021-06-18 18:14:28,530 INFO spawned: 'intent_recognition' with pid 1549
+2021-06-18 18:14:28,549 INFO spawned: 'intent_handling' with pid 1553
+2021-06-18 18:14:28,576 INFO spawned: 'text_to_speech' with pid 1556
+2021-06-18 18:14:28,596 INFO spawned: 'speakers' with pid 1564
+2021-06-18 18:14:30,412 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:14:30,413 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:14:30,414 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:14:30,415 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:14:30,415 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:14:30,416 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:14:30,416 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:14:30,417 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:14:30,417 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:15:03,455 WARN received SIGHUP indicating restart request
+2021-06-18 18:15:03,456 INFO waiting for microphone, speech_to_text, dialogue, mqtt, wake_word, intent_recognition, intent_handling, text_to_speech, speakers to die
+2021-06-18 18:15:03,467 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 18:15:03,480 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 18:15:03,484 INFO stopped: intent_handling (terminated by SIGTERM)
+2021-06-18 18:15:03,496 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 18:15:03,500 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 18:15:03,517 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 18:15:03,524 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 18:15:03,530 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 18:15:03,558 INFO stopped: mqtt (exit status 0)
+2021-06-18 18:15:03,612 INFO supervisord started with pid 174
+2021-06-18 18:15:04,621 INFO spawned: 'mqtt' with pid 1651
+2021-06-18 18:15:04,636 INFO spawned: 'microphone' with pid 1652
+2021-06-18 18:15:04,654 INFO spawned: 'speech_to_text' with pid 1653
+2021-06-18 18:15:04,670 INFO spawned: 'dialogue' with pid 1654
+2021-06-18 18:15:04,678 INFO spawned: 'wake_word' with pid 1655
+2021-06-18 18:15:04,708 INFO spawned: 'intent_recognition' with pid 1659
+2021-06-18 18:15:04,719 INFO spawned: 'intent_handling' with pid 1662
+2021-06-18 18:15:04,800 INFO spawned: 'text_to_speech' with pid 1675
+2021-06-18 18:15:04,812 INFO spawned: 'speakers' with pid 1677
+2021-06-18 18:15:06,611 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:15:06,612 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:15:06,612 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:15:06,612 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:15:06,613 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:15:06,614 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:15:06,615 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:15:06,615 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:15:06,615 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:15:33,799 WARN received SIGHUP indicating restart request
+2021-06-18 18:15:33,800 INFO waiting for microphone, speech_to_text, dialogue, mqtt, wake_word, intent_recognition, intent_handling, text_to_speech, speakers to die
+2021-06-18 18:15:33,803 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 18:15:33,810 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 18:15:33,824 INFO stopped: intent_handling (terminated by SIGTERM)
+2021-06-18 18:15:33,829 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 18:15:33,833 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 18:15:33,838 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 18:15:33,846 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 18:15:33,850 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 18:15:33,861 INFO stopped: mqtt (exit status 0)
+2021-06-18 18:15:33,940 INFO supervisord started with pid 174
+2021-06-18 18:15:34,955 INFO spawned: 'mqtt' with pid 1747
+2021-06-18 18:15:34,972 INFO spawned: 'microphone' with pid 1748
+2021-06-18 18:15:34,992 INFO spawned: 'speech_to_text' with pid 1749
+2021-06-18 18:15:35,014 INFO spawned: 'dialogue' with pid 1750
+2021-06-18 18:15:35,029 INFO spawned: 'wake_word' with pid 1751
+2021-06-18 18:15:35,045 INFO spawned: 'intent_recognition' with pid 1752
+2021-06-18 18:15:35,067 INFO spawned: 'intent_handling' with pid 1753
+2021-06-18 18:15:35,088 INFO spawned: 'text_to_speech' with pid 1757
+2021-06-18 18:15:35,107 INFO spawned: 'speakers' with pid 1761
+2021-06-18 18:15:36,152 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:15:36,153 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:15:36,154 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:15:36,155 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:15:36,156 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:15:36,156 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:15:36,157 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:15:36,157 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:15:36,157 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:20:05,466 WARN received SIGHUP indicating restart request
+2021-06-18 18:20:05,468 INFO waiting for microphone, speech_to_text, dialogue, mqtt, wake_word, intent_recognition, intent_handling, text_to_speech, speakers to die
+2021-06-18 18:20:05,479 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 18:20:05,493 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 18:20:05,498 INFO stopped: intent_handling (terminated by SIGTERM)
+2021-06-18 18:20:05,504 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 18:20:05,511 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 18:20:05,526 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 18:20:05,534 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 18:20:05,560 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 18:20:05,662 INFO stopped: mqtt (exit status 0)
+2021-06-18 18:20:05,709 INFO supervisord started with pid 174
+2021-06-18 18:20:06,717 INFO spawned: 'mqtt' with pid 1848
+2021-06-18 18:20:06,731 INFO spawned: 'microphone' with pid 1849
+2021-06-18 18:20:06,747 INFO spawned: 'speech_to_text' with pid 1850
+2021-06-18 18:20:06,763 INFO spawned: 'dialogue' with pid 1851
+2021-06-18 18:20:06,778 INFO spawned: 'wake_word' with pid 1852
+2021-06-18 18:20:06,803 INFO spawned: 'intent_recognition' with pid 1853
+2021-06-18 18:20:06,830 INFO spawned: 'intent_handling' with pid 1859
+2021-06-18 18:20:06,856 INFO spawned: 'text_to_speech' with pid 1864
+2021-06-18 18:20:06,867 INFO spawned: 'speakers' with pid 1869
+2021-06-18 18:20:08,704 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:20:08,704 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:20:08,706 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:20:08,706 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:20:08,707 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:20:08,708 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:20:08,709 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:20:08,710 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:20:08,711 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:20:53,435 WARN received SIGHUP indicating restart request
+2021-06-18 18:20:53,437 INFO waiting for microphone, speech_to_text, dialogue, mqtt, wake_word, intent_recognition, intent_handling, text_to_speech, speakers to die
+2021-06-18 18:20:53,448 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 18:20:53,453 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 18:20:53,461 INFO stopped: intent_handling (terminated by SIGTERM)
+2021-06-18 18:20:53,469 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 18:20:53,473 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 18:20:53,477 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 18:20:53,482 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 18:20:53,495 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 18:20:53,509 INFO stopped: mqtt (exit status 0)
+2021-06-18 18:20:53,578 INFO supervisord started with pid 174
+2021-06-18 18:20:54,587 INFO spawned: 'mqtt' with pid 1933
+2021-06-18 18:20:54,602 INFO spawned: 'microphone' with pid 1934
+2021-06-18 18:20:54,620 INFO spawned: 'speech_to_text' with pid 1935
+2021-06-18 18:20:54,638 INFO spawned: 'dialogue' with pid 1936
+2021-06-18 18:20:54,648 INFO spawned: 'wake_word' with pid 1937
+2021-06-18 18:20:54,677 INFO spawned: 'intent_recognition' with pid 1940
+2021-06-18 18:20:54,694 INFO spawned: 'intent_handling' with pid 1942
+2021-06-18 18:20:54,704 INFO spawned: 'text_to_speech' with pid 1946
+2021-06-18 18:20:54,718 INFO spawned: 'speakers' with pid 1950
+2021-06-18 18:20:56,561 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:20:56,561 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:20:56,562 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:20:56,562 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:20:56,563 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:20:56,563 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:20:56,564 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:20:56,564 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:20:56,565 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:24:02,288 WARN received SIGHUP indicating restart request
+2021-06-18 18:24:02,290 INFO waiting for microphone, speech_to_text, dialogue, mqtt, wake_word, intent_recognition, intent_handling, text_to_speech, speakers to die
+2021-06-18 18:24:02,292 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 18:24:02,299 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 18:24:02,309 INFO stopped: intent_handling (terminated by SIGTERM)
+2021-06-18 18:24:02,314 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 18:24:02,320 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 18:24:02,325 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 18:24:02,336 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 18:24:02,340 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 18:24:02,349 INFO stopped: mqtt (exit status 0)
+2021-06-18 18:24:02,407 INFO supervisord started with pid 174
+2021-06-18 18:24:03,415 INFO spawned: 'mqtt' with pid 2089
+2021-06-18 18:24:03,428 INFO spawned: 'microphone' with pid 2090
+2021-06-18 18:24:03,443 INFO spawned: 'speech_to_text' with pid 2091
+2021-06-18 18:24:03,458 INFO spawned: 'dialogue' with pid 2092
+2021-06-18 18:24:03,469 INFO spawned: 'wake_word' with pid 2093
+2021-06-18 18:24:03,501 INFO spawned: 'intent_recognition' with pid 2096
+2021-06-18 18:24:03,532 INFO spawned: 'intent_handling' with pid 2101
+2021-06-18 18:24:03,551 INFO spawned: 'text_to_speech' with pid 2103
+2021-06-18 18:24:03,570 INFO spawned: 'speakers' with pid 2108
+2021-06-18 18:24:05,394 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:24:05,395 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:24:05,395 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:24:05,396 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:24:05,396 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:24:05,397 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:24:05,397 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:24:05,398 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:24:05,398 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:26:35,819 WARN received SIGHUP indicating restart request
+2021-06-18 18:26:35,822 INFO waiting for microphone, speech_to_text, dialogue, mqtt, wake_word, intent_recognition, intent_handling, text_to_speech, speakers to die
+2021-06-18 18:26:35,826 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 18:26:35,836 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 18:26:35,841 INFO stopped: intent_handling (terminated by SIGTERM)
+2021-06-18 18:26:35,845 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 18:26:35,850 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 18:26:35,857 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 18:26:35,867 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 18:26:35,876 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 18:26:35,912 INFO stopped: mqtt (exit status 0)
+2021-06-18 18:26:35,970 INFO supervisord started with pid 174
+2021-06-18 18:26:36,979 INFO spawned: 'mqtt' with pid 2218
+2021-06-18 18:26:36,995 INFO spawned: 'microphone' with pid 2219
+2021-06-18 18:26:37,014 INFO spawned: 'speech_to_text' with pid 2220
+2021-06-18 18:26:37,033 INFO spawned: 'dialogue' with pid 2221
+2021-06-18 18:26:37,056 INFO spawned: 'wake_word' with pid 2222
+2021-06-18 18:26:37,078 INFO spawned: 'intent_recognition' with pid 2226
+2021-06-18 18:26:37,093 INFO spawned: 'intent_handling' with pid 2230
+2021-06-18 18:26:37,105 INFO spawned: 'text_to_speech' with pid 2231
+2021-06-18 18:26:37,126 INFO spawned: 'speakers' with pid 2236
+2021-06-18 18:26:38,958 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:26:38,959 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:26:38,965 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:26:38,965 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:26:38,966 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:26:38,966 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:26:38,967 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:26:38,967 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:26:38,967 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:27:28,057 WARN received SIGHUP indicating restart request
+2021-06-18 18:27:28,059 INFO waiting for microphone, speech_to_text, dialogue, mqtt, wake_word, intent_recognition, intent_handling, text_to_speech, speakers to die
+2021-06-18 18:27:28,072 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 18:27:28,081 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 18:27:28,087 INFO stopped: intent_handling (terminated by SIGTERM)
+2021-06-18 18:27:28,099 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 18:27:28,111 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 18:27:28,117 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 18:27:28,138 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 18:27:28,142 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 18:27:28,164 INFO stopped: mqtt (exit status 0)
+2021-06-18 18:27:28,220 INFO supervisord started with pid 174
+2021-06-18 18:27:29,227 INFO spawned: 'mqtt' with pid 2314
+2021-06-18 18:27:29,236 INFO spawned: 'microphone' with pid 2315
+2021-06-18 18:27:29,247 INFO spawned: 'speech_to_text' with pid 2316
+2021-06-18 18:27:29,258 INFO spawned: 'dialogue' with pid 2317
+2021-06-18 18:27:29,277 INFO spawned: 'wake_word' with pid 2318
+2021-06-18 18:27:29,296 INFO spawned: 'intent_recognition' with pid 2319
+2021-06-18 18:27:29,318 INFO spawned: 'intent_handling' with pid 2320
+2021-06-18 18:27:29,343 INFO spawned: 'text_to_speech' with pid 2325
+2021-06-18 18:27:29,352 INFO spawned: 'speakers' with pid 2327
+2021-06-18 18:27:31,207 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:27:31,208 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:27:31,208 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:27:31,209 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:27:31,210 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:27:31,212 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:27:31,212 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:27:31,213 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:27:31,214 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:29:22,687 INFO supervisord started with pid 173
+2021-06-18 18:29:23,699 INFO spawned: 'mqtt' with pid 189
+2021-06-18 18:29:23,709 INFO spawned: 'microphone' with pid 190
+2021-06-18 18:29:23,719 INFO spawned: 'speech_to_text' with pid 191
+2021-06-18 18:29:23,730 INFO spawned: 'dialogue' with pid 192
+2021-06-18 18:29:23,750 INFO spawned: 'wake_word' with pid 193
+2021-06-18 18:29:23,767 INFO spawned: 'intent_recognition' with pid 194
+2021-06-18 18:29:23,802 INFO spawned: 'intent_handling' with pid 196
+2021-06-18 18:29:23,830 INFO spawned: 'text_to_speech' with pid 202
+2021-06-18 18:29:23,840 INFO spawned: 'speakers' with pid 203
+2021-06-18 18:29:24,887 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:29:24,888 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:29:24,889 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:29:24,890 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:29:24,891 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:29:24,892 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:29:24,893 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:29:24,894 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:29:24,895 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:31:35,898 WARN received SIGHUP indicating restart request
+2021-06-18 18:31:35,907 INFO waiting for microphone, speech_to_text, dialogue, mqtt, wake_word, intent_recognition, intent_handling, text_to_speech, speakers to die
+2021-06-18 18:31:35,918 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 18:31:35,921 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 18:31:35,926 INFO stopped: intent_handling (terminated by SIGTERM)
+2021-06-18 18:31:35,932 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 18:31:35,937 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 18:31:35,950 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 18:31:35,958 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 18:31:35,974 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 18:31:35,998 INFO stopped: mqtt (exit status 0)
+2021-06-18 18:31:36,058 INFO supervisord started with pid 173
+2021-06-18 18:31:37,065 INFO spawned: 'mqtt' with pid 302
+2021-06-18 18:31:37,075 INFO spawned: 'microphone' with pid 303
+2021-06-18 18:31:37,087 INFO spawned: 'speech_to_text' with pid 304
+2021-06-18 18:31:37,100 INFO spawned: 'dialogue' with pid 305
+2021-06-18 18:31:37,110 INFO spawned: 'wake_word' with pid 306
+2021-06-18 18:31:37,136 INFO spawned: 'intent_recognition' with pid 307
+2021-06-18 18:31:37,169 INFO spawned: 'intent_handling' with pid 310
+2021-06-18 18:31:37,200 INFO spawned: 'text_to_speech' with pid 313
+2021-06-18 18:31:37,224 INFO spawned: 'speakers' with pid 319
+2021-06-18 18:31:38,060 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:31:39,068 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:31:39,068 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:31:39,071 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:31:39,071 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:31:39,072 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:31:39,073 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:31:39,075 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:31:39,077 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:31:45,815 WARN received SIGHUP indicating restart request
+2021-06-18 18:31:45,818 INFO waiting for microphone, speech_to_text, dialogue, mqtt, wake_word, intent_recognition, intent_handling, text_to_speech, speakers to die
+2021-06-18 18:31:45,824 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 18:31:45,836 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 18:31:45,839 INFO stopped: intent_handling (terminated by SIGTERM)
+2021-06-18 18:31:45,843 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 18:31:45,848 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 18:31:45,853 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 18:31:45,858 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 18:31:45,862 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 18:31:45,877 INFO stopped: mqtt (exit status 0)
+2021-06-18 18:31:45,926 INFO supervisord started with pid 173
+2021-06-18 18:31:46,935 INFO spawned: 'mqtt' with pid 393
+2021-06-18 18:31:46,949 INFO spawned: 'microphone' with pid 394
+2021-06-18 18:31:46,966 INFO spawned: 'speech_to_text' with pid 395
+2021-06-18 18:31:46,982 INFO spawned: 'dialogue' with pid 396
+2021-06-18 18:31:46,992 INFO spawned: 'wake_word' with pid 397
+2021-06-18 18:31:47,010 INFO spawned: 'intent_recognition' with pid 398
+2021-06-18 18:31:47,044 INFO spawned: 'intent_handling' with pid 404
+2021-06-18 18:31:47,070 INFO spawned: 'text_to_speech' with pid 407
+2021-06-18 18:31:47,089 INFO spawned: 'speakers' with pid 410
+2021-06-18 18:31:48,927 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:31:48,927 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:31:48,929 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:31:48,929 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:31:48,930 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:31:48,931 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:31:48,931 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:31:48,932 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:31:48,933 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:33:31,365 WARN received SIGHUP indicating restart request
+2021-06-18 18:33:31,367 INFO waiting for microphone, speech_to_text, dialogue, mqtt, wake_word, intent_recognition, intent_handling, text_to_speech, speakers to die
+2021-06-18 18:33:31,373 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 18:33:31,389 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 18:33:31,403 INFO stopped: intent_handling (terminated by SIGTERM)
+2021-06-18 18:33:31,412 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 18:33:31,416 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 18:33:31,422 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 18:33:31,430 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 18:33:31,439 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 18:33:31,468 INFO stopped: mqtt (exit status 0)
+2021-06-18 18:33:31,535 INFO supervisord started with pid 173
+2021-06-18 18:33:32,542 INFO spawned: 'mqtt' with pid 501
+2021-06-18 18:33:32,552 INFO spawned: 'microphone' with pid 502
+2021-06-18 18:33:32,564 INFO spawned: 'speech_to_text' with pid 503
+2021-06-18 18:33:32,591 INFO spawned: 'dialogue' with pid 504
+2021-06-18 18:33:32,600 INFO spawned: 'wake_word' with pid 505
+2021-06-18 18:33:32,625 INFO spawned: 'intent_recognition' with pid 506
+2021-06-18 18:33:32,649 INFO spawned: 'intent_handling' with pid 512
+2021-06-18 18:33:32,663 INFO spawned: 'text_to_speech' with pid 513
+2021-06-18 18:33:32,684 INFO spawned: 'speakers' with pid 517
+2021-06-18 18:33:34,519 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:33:34,520 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:33:34,521 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:33:34,521 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:33:34,522 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:33:34,523 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:33:34,523 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:33:34,524 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:33:34,524 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:35:24,265 WARN received SIGHUP indicating restart request
+2021-06-18 18:35:24,267 INFO waiting for microphone, speech_to_text, dialogue, mqtt, wake_word, intent_recognition, intent_handling, text_to_speech, speakers to die
+2021-06-18 18:35:24,271 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 18:35:24,284 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 18:35:24,294 INFO stopped: intent_handling (terminated by SIGTERM)
+2021-06-18 18:35:24,304 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 18:35:24,309 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 18:35:24,317 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 18:35:24,329 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 18:35:24,335 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 18:35:24,356 INFO stopped: mqtt (exit status 0)
+2021-06-18 18:35:24,422 INFO supervisord started with pid 173
+2021-06-18 18:35:25,429 INFO spawned: 'mqtt' with pid 602
+2021-06-18 18:35:25,438 INFO spawned: 'microphone' with pid 603
+2021-06-18 18:35:25,449 INFO spawned: 'speech_to_text' with pid 604
+2021-06-18 18:35:25,459 INFO spawned: 'dialogue' with pid 605
+2021-06-18 18:35:25,468 INFO spawned: 'wake_word' with pid 606
+2021-06-18 18:35:25,487 INFO spawned: 'intent_recognition' with pid 607
+2021-06-18 18:35:25,517 INFO spawned: 'intent_handling' with pid 608
+2021-06-18 18:35:25,537 INFO spawned: 'text_to_speech' with pid 611
+2021-06-18 18:35:25,556 INFO spawned: 'speakers' with pid 614
+2021-06-18 18:35:27,411 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:35:27,412 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:35:27,413 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:35:27,414 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:35:27,414 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:35:27,415 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:35:27,415 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:35:27,416 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 18:35:27,416 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:14:18,791 WARN received SIGHUP indicating restart request
+2021-06-18 19:14:18,828 INFO waiting for microphone, speech_to_text, dialogue, mqtt, wake_word, intent_recognition, intent_handling, text_to_speech, speakers to die
+2021-06-18 19:14:18,839 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 19:14:18,843 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 19:14:18,850 INFO stopped: intent_handling (terminated by SIGTERM)
+2021-06-18 19:14:18,860 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 19:14:18,875 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 19:14:18,883 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 19:14:18,886 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 19:14:18,892 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 19:14:19,071 INFO stopped: mqtt (exit status 0)
+2021-06-18 19:14:19,165 INFO supervisord started with pid 173
+2021-06-18 19:14:20,241 INFO spawned: 'mqtt' with pid 698
+2021-06-18 19:14:20,252 INFO spawned: 'microphone' with pid 699
+2021-06-18 19:14:20,264 INFO spawned: 'speech_to_text' with pid 700
+2021-06-18 19:14:20,277 INFO spawned: 'dialogue' with pid 701
+2021-06-18 19:14:20,287 INFO spawned: 'wake_word' with pid 702
+2021-06-18 19:14:20,297 INFO spawned: 'intent_recognition' with pid 703
+2021-06-18 19:14:20,324 INFO spawned: 'intent_handling' with pid 704
+2021-06-18 19:14:20,343 INFO spawned: 'text_to_speech' with pid 705
+2021-06-18 19:14:20,364 INFO spawned: 'speakers' with pid 706
+2021-06-18 19:14:22,081 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:14:22,082 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:14:22,083 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:14:22,083 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:14:22,085 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:14:22,087 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:14:22,088 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:14:22,089 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:14:22,090 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:16:28,338 WARN received SIGHUP indicating restart request
+2021-06-18 19:16:28,339 INFO waiting for microphone, speech_to_text, dialogue, mqtt, wake_word, intent_recognition, intent_handling, text_to_speech, speakers to die
+2021-06-18 19:16:28,342 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 19:16:28,352 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 19:16:28,366 INFO stopped: intent_handling (terminated by SIGTERM)
+2021-06-18 19:16:28,373 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 19:16:28,379 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 19:16:28,390 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 19:16:28,409 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 19:16:28,413 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 19:16:28,435 INFO stopped: mqtt (exit status 0)
+2021-06-18 19:16:28,504 INFO supervisord started with pid 173
+2021-06-18 19:16:29,512 INFO spawned: 'mqtt' with pid 822
+2021-06-18 19:16:29,521 INFO spawned: 'microphone' with pid 823
+2021-06-18 19:16:29,533 INFO spawned: 'speech_to_text' with pid 824
+2021-06-18 19:16:29,547 INFO spawned: 'dialogue' with pid 825
+2021-06-18 19:16:29,572 INFO spawned: 'wake_word' with pid 826
+2021-06-18 19:16:29,589 INFO spawned: 'intent_recognition' with pid 827
+2021-06-18 19:16:29,632 INFO spawned: 'intent_handling' with pid 829
+2021-06-18 19:16:29,643 INFO spawned: 'text_to_speech' with pid 831
+2021-06-18 19:16:29,669 INFO spawned: 'speakers' with pid 837
+2021-06-18 19:16:31,483 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:16:31,484 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:16:31,484 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:16:31,487 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:16:31,488 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:16:31,490 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:16:31,490 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:16:31,491 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:16:31,501 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:16:52,172 WARN received SIGHUP indicating restart request
+2021-06-18 19:16:52,174 INFO waiting for microphone, speech_to_text, dialogue, mqtt, wake_word, intent_recognition, intent_handling, text_to_speech, speakers to die
+2021-06-18 19:16:52,177 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 19:16:52,181 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 19:16:52,188 INFO stopped: intent_handling (terminated by SIGTERM)
+2021-06-18 19:16:52,203 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 19:16:52,221 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 19:16:52,225 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 19:16:52,229 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 19:16:52,234 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 19:16:52,261 INFO stopped: mqtt (exit status 0)
+2021-06-18 19:16:52,325 INFO supervisord started with pid 173
+2021-06-18 19:16:53,335 INFO spawned: 'mqtt' with pid 917
+2021-06-18 19:16:53,348 INFO spawned: 'microphone' with pid 918
+2021-06-18 19:16:53,364 INFO spawned: 'speech_to_text' with pid 919
+2021-06-18 19:16:53,381 INFO spawned: 'dialogue' with pid 920
+2021-06-18 19:16:53,395 INFO spawned: 'wake_word' with pid 921
+2021-06-18 19:16:53,439 INFO spawned: 'intent_recognition' with pid 926
+2021-06-18 19:16:53,466 INFO spawned: 'intent_handling' with pid 930
+2021-06-18 19:16:53,491 INFO spawned: 'text_to_speech' with pid 933
+2021-06-18 19:16:53,506 INFO spawned: 'speakers' with pid 936
+2021-06-18 19:16:55,309 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:16:55,309 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:16:55,310 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:16:55,311 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:16:55,312 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:16:55,313 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:16:55,314 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:16:55,315 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:16:55,316 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:17:14,441 WARN received SIGHUP indicating restart request
+2021-06-18 19:17:14,445 INFO waiting for microphone, speech_to_text, dialogue, mqtt, wake_word, intent_recognition, intent_handling, text_to_speech, speakers to die
+2021-06-18 19:17:14,448 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 19:17:14,461 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 19:17:14,466 INFO stopped: intent_handling (terminated by SIGTERM)
+2021-06-18 19:17:14,473 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 19:17:14,476 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 19:17:14,495 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 19:17:14,501 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 19:17:14,512 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 19:17:14,532 INFO stopped: mqtt (exit status 0)
+2021-06-18 19:17:14,590 INFO supervisord started with pid 173
+2021-06-18 19:17:15,598 INFO spawned: 'mqtt' with pid 1009
+2021-06-18 19:17:15,607 INFO spawned: 'microphone' with pid 1010
+2021-06-18 19:17:15,618 INFO spawned: 'speech_to_text' with pid 1011
+2021-06-18 19:17:15,629 INFO spawned: 'dialogue' with pid 1012
+2021-06-18 19:17:15,639 INFO spawned: 'wake_word' with pid 1013
+2021-06-18 19:17:15,659 INFO spawned: 'intent_recognition' with pid 1014
+2021-06-18 19:17:15,690 INFO spawned: 'intent_handling' with pid 1015
+2021-06-18 19:17:15,709 INFO spawned: 'text_to_speech' with pid 1018
+2021-06-18 19:17:15,739 INFO spawned: 'speakers' with pid 1022
+2021-06-18 19:17:17,591 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:17:17,593 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:17:17,594 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:17:17,596 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:17:17,598 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:17:17,599 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:17:17,601 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:17:17,603 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:17:17,604 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:18:06,998 WARN received SIGHUP indicating restart request
+2021-06-18 19:18:07,000 INFO waiting for microphone, speech_to_text, dialogue, mqtt, wake_word, intent_recognition, intent_handling, text_to_speech, speakers to die
+2021-06-18 19:18:07,011 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 19:18:07,024 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 19:18:07,039 INFO stopped: intent_handling (terminated by SIGTERM)
+2021-06-18 19:18:07,042 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 19:18:07,047 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 19:18:07,055 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 19:18:07,072 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 19:18:07,082 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 19:18:07,092 INFO stopped: mqtt (exit status 0)
+2021-06-18 19:18:07,155 INFO supervisord started with pid 173
+2021-06-18 19:18:08,165 INFO spawned: 'mqtt' with pid 1104
+2021-06-18 19:18:08,177 INFO spawned: 'microphone' with pid 1105
+2021-06-18 19:18:08,192 INFO spawned: 'speech_to_text' with pid 1106
+2021-06-18 19:18:08,208 INFO spawned: 'dialogue' with pid 1107
+2021-06-18 19:18:08,220 INFO spawned: 'wake_word' with pid 1108
+2021-06-18 19:18:08,263 INFO spawned: 'intent_recognition' with pid 1112
+2021-06-18 19:18:08,275 INFO spawned: 'intent_handling' with pid 1116
+2021-06-18 19:18:08,298 INFO spawned: 'text_to_speech' with pid 1119
+2021-06-18 19:18:08,318 INFO spawned: 'speakers' with pid 1122
+2021-06-18 19:18:10,140 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:18:10,141 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:18:10,142 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:18:10,143 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:18:10,144 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:18:10,144 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:18:10,145 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:18:10,146 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:18:10,147 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:19:50,450 WARN received SIGHUP indicating restart request
+2021-06-18 19:19:50,452 INFO waiting for microphone, speech_to_text, dialogue, mqtt, wake_word, intent_recognition, intent_handling, text_to_speech, speakers to die
+2021-06-18 19:19:50,467 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 19:19:50,473 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 19:19:50,478 INFO stopped: intent_handling (terminated by SIGTERM)
+2021-06-18 19:19:50,484 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 19:19:50,493 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 19:19:50,507 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 19:19:50,514 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 19:19:50,534 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 19:19:50,550 INFO stopped: mqtt (exit status 0)
+2021-06-18 19:19:50,611 INFO supervisord started with pid 173
+2021-06-18 19:19:51,618 INFO spawned: 'mqtt' with pid 1206
+2021-06-18 19:19:51,627 INFO spawned: 'microphone' with pid 1207
+2021-06-18 19:19:51,638 INFO spawned: 'speech_to_text' with pid 1208
+2021-06-18 19:19:51,649 INFO spawned: 'dialogue' with pid 1209
+2021-06-18 19:19:51,668 INFO spawned: 'wake_word' with pid 1210
+2021-06-18 19:19:51,688 INFO spawned: 'intent_recognition' with pid 1211
+2021-06-18 19:19:51,710 INFO spawned: 'intent_handling' with pid 1214
+2021-06-18 19:19:51,727 INFO spawned: 'text_to_speech' with pid 1217
+2021-06-18 19:19:51,749 INFO spawned: 'speakers' with pid 1220
+2021-06-18 19:19:53,609 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:19:53,610 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:19:53,612 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:19:53,613 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:19:53,614 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:19:53,615 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:19:53,616 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:19:53,616 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:19:53,617 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:20:23,218 WARN received SIGHUP indicating restart request
+2021-06-18 19:20:23,220 INFO waiting for microphone, speech_to_text, dialogue, mqtt, wake_word, intent_recognition, intent_handling, text_to_speech, speakers to die
+2021-06-18 19:20:23,232 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 19:20:23,236 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 19:20:23,253 INFO stopped: intent_handling (terminated by SIGTERM)
+2021-06-18 19:20:23,258 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 19:20:23,265 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 19:20:23,269 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 19:20:23,275 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 19:20:23,279 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 19:20:23,290 INFO stopped: mqtt (exit status 0)
+2021-06-18 19:20:23,342 INFO supervisord started with pid 173
+2021-06-18 19:20:24,352 INFO spawned: 'mqtt' with pid 1297
+2021-06-18 19:20:24,367 INFO spawned: 'microphone' with pid 1298
+2021-06-18 19:20:24,382 INFO spawned: 'speech_to_text' with pid 1299
+2021-06-18 19:20:24,413 INFO spawned: 'dialogue' with pid 1300
+2021-06-18 19:20:24,429 INFO spawned: 'wake_word' with pid 1303
+2021-06-18 19:20:24,441 INFO spawned: 'intent_recognition' with pid 1304
+2021-06-18 19:20:24,460 INFO spawned: 'intent_handling' with pid 1308
+2021-06-18 19:20:24,488 INFO spawned: 'text_to_speech' with pid 1311
+2021-06-18 19:20:24,497 INFO spawned: 'speakers' with pid 1315
+2021-06-18 19:20:26,341 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:20:26,342 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:20:26,342 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:20:26,343 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:20:26,344 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:20:26,344 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:20:26,345 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:20:26,345 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:20:26,346 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:22:23,379 WARN received SIGHUP indicating restart request
+2021-06-18 19:22:23,381 INFO waiting for microphone, speech_to_text, dialogue, mqtt, wake_word, intent_recognition, intent_handling, text_to_speech, speakers to die
+2021-06-18 19:22:23,392 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 19:22:23,398 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 19:22:23,407 INFO stopped: intent_handling (terminated by SIGTERM)
+2021-06-18 19:22:23,413 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 19:22:23,418 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 19:22:23,434 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 19:22:23,441 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 19:22:23,447 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 19:22:23,471 INFO stopped: mqtt (exit status 0)
+2021-06-18 19:22:23,518 INFO supervisord started with pid 173
+2021-06-18 19:22:24,527 INFO spawned: 'mqtt' with pid 1392
+2021-06-18 19:22:24,542 INFO spawned: 'microphone' with pid 1393
+2021-06-18 19:22:24,558 INFO spawned: 'speech_to_text' with pid 1394
+2021-06-18 19:22:24,575 INFO spawned: 'dialogue' with pid 1395
+2021-06-18 19:22:24,599 INFO spawned: 'wake_word' with pid 1396
+2021-06-18 19:22:24,609 INFO spawned: 'intent_recognition' with pid 1399
+2021-06-18 19:22:24,630 INFO spawned: 'intent_handling' with pid 1402
+2021-06-18 19:22:24,696 INFO spawned: 'text_to_speech' with pid 1413
+2021-06-18 19:22:24,712 INFO spawned: 'speakers' with pid 1416
+2021-06-18 19:22:26,510 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:22:26,511 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:22:26,511 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:22:26,512 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:22:26,512 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:22:26,513 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:22:26,513 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:22:26,513 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:22:26,514 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:22:39,735 WARN received SIGHUP indicating restart request
+2021-06-18 19:22:39,737 INFO waiting for microphone, speech_to_text, dialogue, mqtt, wake_word, intent_recognition, intent_handling, text_to_speech, speakers to die
+2021-06-18 19:22:39,741 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 19:22:39,749 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 19:22:39,754 INFO stopped: intent_handling (terminated by SIGTERM)
+2021-06-18 19:22:39,764 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 19:22:39,769 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 19:22:39,784 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 19:22:39,791 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 19:22:39,805 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 19:22:39,823 INFO stopped: mqtt (exit status 0)
+2021-06-18 19:22:39,876 INFO supervisord started with pid 173
+2021-06-18 19:22:40,886 INFO spawned: 'mqtt' with pid 1480
+2021-06-18 19:22:40,900 INFO spawned: 'microphone' with pid 1481
+2021-06-18 19:22:40,918 INFO spawned: 'speech_to_text' with pid 1482
+2021-06-18 19:22:40,936 INFO spawned: 'dialogue' with pid 1483
+2021-06-18 19:22:40,949 INFO spawned: 'wake_word' with pid 1484
+2021-06-18 19:22:40,979 INFO spawned: 'intent_recognition' with pid 1487
+2021-06-18 19:22:40,990 INFO spawned: 'intent_handling' with pid 1489
+2021-06-18 19:22:41,061 INFO spawned: 'text_to_speech' with pid 1501
+2021-06-18 19:22:41,070 INFO spawned: 'speakers' with pid 1504
+2021-06-18 19:22:42,849 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:22:42,850 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:22:42,850 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:22:42,851 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:22:42,852 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:22:42,852 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:22:42,853 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:22:42,854 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:22:42,854 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:24:09,423 WARN received SIGHUP indicating restart request
+2021-06-18 19:24:09,471 INFO waiting for microphone, speech_to_text, dialogue, mqtt, wake_word, intent_recognition, intent_handling, text_to_speech, speakers to die
+2021-06-18 19:24:09,490 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-18 19:24:09,494 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-18 19:24:09,498 INFO stopped: intent_handling (terminated by SIGTERM)
+2021-06-18 19:24:09,516 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-18 19:24:09,519 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-18 19:24:09,522 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-18 19:24:09,526 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-18 19:24:09,540 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-18 19:24:09,599 INFO stopped: mqtt (exit status 0)
+2021-06-18 19:24:09,678 INFO supervisord started with pid 173
+2021-06-18 19:24:10,767 INFO spawned: 'mqtt' with pid 1578
+2021-06-18 19:24:10,780 INFO spawned: 'microphone' with pid 1579
+2021-06-18 19:24:10,793 INFO spawned: 'speech_to_text' with pid 1580
+2021-06-18 19:24:10,807 INFO spawned: 'dialogue' with pid 1581
+2021-06-18 19:24:10,817 INFO spawned: 'wake_word' with pid 1582
+2021-06-18 19:24:10,829 INFO spawned: 'intent_recognition' with pid 1583
+2021-06-18 19:24:10,844 INFO spawned: 'intent_handling' with pid 1584
+2021-06-18 19:24:10,855 INFO spawned: 'text_to_speech' with pid 1585
+2021-06-18 19:24:10,865 INFO spawned: 'speakers' with pid 1586
+2021-06-18 19:24:12,071 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:24:12,072 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:24:12,072 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:24:12,073 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:24:12,073 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:24:12,074 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:24:12,075 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:24:12,075 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:24:12,076 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:32:27,012 INFO supervisord started with pid 173
+2021-06-18 19:32:28,030 INFO spawned: 'mqtt' with pid 189
+2021-06-18 19:32:28,039 INFO spawned: 'microphone' with pid 190
+2021-06-18 19:32:28,049 INFO spawned: 'speech_to_text' with pid 191
+2021-06-18 19:32:28,061 INFO spawned: 'dialogue' with pid 192
+2021-06-18 19:32:28,069 INFO spawned: 'wake_word' with pid 193
+2021-06-18 19:32:28,077 INFO spawned: 'intent_recognition' with pid 194
+2021-06-18 19:32:28,117 INFO spawned: 'intent_handling' with pid 197
+2021-06-18 19:32:28,126 INFO spawned: 'text_to_speech' with pid 200
+2021-06-18 19:32:28,153 INFO spawned: 'speakers' with pid 204
+2021-06-18 19:32:29,230 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:32:29,231 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:32:29,232 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:32:29,233 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:32:29,234 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:32:29,234 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:32:29,235 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:32:29,236 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:32:29,237 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:38:12,459 INFO supervisord started with pid 174
+2021-06-18 19:38:13,473 INFO spawned: 'mqtt' with pid 190
+2021-06-18 19:38:13,483 INFO spawned: 'microphone' with pid 191
+2021-06-18 19:38:13,505 INFO spawned: 'speech_to_text' with pid 192
+2021-06-18 19:38:13,524 INFO spawned: 'dialogue' with pid 193
+2021-06-18 19:38:13,532 INFO spawned: 'wake_word' with pid 194
+2021-06-18 19:38:13,541 INFO spawned: 'intent_recognition' with pid 195
+2021-06-18 19:38:13,582 INFO spawned: 'intent_handling' with pid 199
+2021-06-18 19:38:13,591 INFO spawned: 'text_to_speech' with pid 202
+2021-06-18 19:38:13,613 INFO spawned: 'speakers' with pid 206
+2021-06-18 19:38:14,678 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:38:14,679 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:38:14,680 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:38:14,681 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:38:14,681 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:38:14,682 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:38:14,683 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:38:14,683 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-18 19:38:14,684 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-19 19:54:07,810 WARN received SIGHUP indicating restart request
+2021-06-19 19:54:07,845 INFO waiting for microphone, speech_to_text, dialogue, mqtt, wake_word, intent_recognition, intent_handling, text_to_speech, speakers to die
+2021-06-19 19:54:07,894 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-19 19:54:07,929 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-19 19:54:07,945 INFO stopped: intent_handling (terminated by SIGTERM)
+2021-06-19 19:54:07,951 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-19 19:54:07,958 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-19 19:54:07,965 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-19 19:54:07,976 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-19 19:54:07,997 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-19 19:54:08,202 INFO stopped: mqtt (exit status 0)
+2021-06-19 19:54:08,409 INFO supervisord started with pid 174
+2021-06-19 19:54:09,428 INFO spawned: 'mqtt' with pid 481
+2021-06-19 19:54:09,443 INFO spawned: 'microphone' with pid 482
+2021-06-19 19:54:09,472 INFO spawned: 'speech_to_text' with pid 483
+2021-06-19 19:54:09,487 INFO spawned: 'dialogue' with pid 484
+2021-06-19 19:54:09,496 INFO spawned: 'wake_word' with pid 485
+2021-06-19 19:54:09,509 INFO spawned: 'intent_recognition' with pid 486
+2021-06-19 19:54:09,521 INFO spawned: 'intent_handling' with pid 487
+2021-06-19 19:54:09,530 INFO spawned: 'text_to_speech' with pid 488
+2021-06-19 19:54:09,554 INFO spawned: 'speakers' with pid 492
+2021-06-19 19:54:11,204 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-19 19:54:11,206 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-19 19:54:11,206 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-19 19:54:11,207 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-19 19:54:11,208 INFO success: wake_word entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-19 19:54:11,209 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-19 19:54:11,210 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-19 19:54:11,210 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-19 19:54:11,211 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-19 20:04:57,966 WARN received SIGHUP indicating restart request
+2021-06-19 20:04:57,969 INFO waiting for microphone, speech_to_text, dialogue, mqtt, wake_word, intent_recognition, intent_handling, text_to_speech, speakers to die
+2021-06-19 20:04:57,980 INFO stopped: speakers (terminated by SIGTERM)
+2021-06-19 20:04:57,992 INFO stopped: text_to_speech (terminated by SIGTERM)
+2021-06-19 20:04:58,010 INFO stopped: intent_handling (terminated by SIGTERM)
+2021-06-19 20:04:58,016 INFO stopped: intent_recognition (terminated by SIGTERM)
+2021-06-19 20:04:58,020 INFO stopped: wake_word (terminated by SIGTERM)
+2021-06-19 20:04:58,028 INFO stopped: dialogue (terminated by SIGTERM)
+2021-06-19 20:04:58,038 INFO stopped: speech_to_text (terminated by SIGTERM)
+2021-06-19 20:04:58,054 INFO stopped: microphone (terminated by SIGTERM)
+2021-06-19 20:04:58,159 INFO stopped: mqtt (exit status 0)
+2021-06-19 20:04:58,200 INFO supervisord started with pid 174
+2021-06-19 20:04:59,209 INFO spawned: 'mqtt' with pid 572
+2021-06-19 20:04:59,224 INFO spawned: 'intent_recognition' with pid 573
+2021-06-19 20:04:59,253 INFO spawned: 'speech_to_text' with pid 574
+2021-06-19 20:04:59,272 INFO spawned: 'intent_handling' with pid 575
+2021-06-19 20:04:59,282 INFO spawned: 'text_to_speech' with pid 576
+2021-06-19 20:05:01,026 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-19 20:05:01,027 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-19 20:05:01,028 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-19 20:05:01,029 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-19 20:05:01,030 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
