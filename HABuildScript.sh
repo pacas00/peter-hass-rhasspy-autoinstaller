@@ -71,6 +71,19 @@ my_function () {
 
 check_root
 
+	echo 
+	echo 
+	echo Installation should be performed via a GUI Terminal or SSH
+	echo Installing without being able to paste text from clipboard will make installation ABSOLUTELY PAINFUL
+	echo There are API keys you need to enter that are long and case sensitive.
+	echo 
+	echo
+	echo Press Ctrl+C now and switch to a sane connection method.
+	echo 
+	read -p "Press enter to continue"
+
+
+
 realuser=`who am i | awk '{print $1}'`
 realuserhome=`eval echo "~$realuser"`
 systemip=`hostname -I | awk '{print $1}'`
@@ -78,6 +91,8 @@ basestation=`hostname -I | awk '{print $1}'`
 LLAToken=1234
 
 raspberry=`cat /sys/firmware/devicetree/base/model | awk '{print $1}'`
+
+repourl=https://github.com/pacas00/peter-hass-rhasspy-autoinstaller
 
 #my_function
 #echo $?
@@ -107,7 +122,6 @@ select yn in "Yes" "No"; do
     esac
 done
 
-
 if [ "$BASE" = "1" ]; then
 	echo "Is this Base Station also a Speaker"
 	select yn in "Yes" "No"; do
@@ -116,6 +130,11 @@ if [ "$BASE" = "1" ]; then
 			No ) BASESP=0; break;;
 		esac
 	done
+fi
+
+if [ "$BASE" = "0" ]; then
+	read -p "Please enter the Base Station's IP Address: " basestation
+	read -p "Please enter the LLA Token: " LLAToken
 fi
 
 if [ "$BASE" = 0 ] || [ "$BASESP" = 1 ]; then
@@ -129,13 +148,7 @@ if [ "$BASE" = 0 ] || [ "$BASESP" = 1 ]; then
 	done
 fi
 
-
-
-
-
-
 #TODO Network
-
 
 echo 
 echo Your IP Address is $systemip, If this is the basestation, please make this static and remember the ip for any speaker units.
@@ -168,9 +181,6 @@ if [ $BASE == 0 ] || [ $BASESP == 1]; then
 fi
 
 
-
-
-
 mkdir -p /opt/PeterC_HA_AutoInstaller
 
 
@@ -191,6 +201,8 @@ if [ "$RESP2MIC" = "1" ]; then
 	echo 
 	echo Installing the Respeaker 2 Mic Hat Drivers will require a reboot.
 	echo System will automatically restart
+	echo 
+	echo You will need to rerun the script after reboot
 	echo 
 	echo 
 	read -p "Press enter to continue"
@@ -277,6 +289,9 @@ save_stage
 
 mkdir -p /opt/PeterC_HA_AutoInstaller
 
+git clone $repourl /opt/PeterC_HA_AutoInstaller
+cp -R /opt/PeterC_HA_AutoInstaller/defaultconfigs/* /opt/PeterC_HA_AutoInstaller/
+chown -R $realuser /opt/PeterC_HA_AutoInstaller/
 
 
 STAGE=7
@@ -334,6 +349,7 @@ if [ $BASE == 1 ]; then
 	echo Click the user button in the bottom left of Home Assistant.
 	echo Scroll down to Long-Lived Access Tokens. Click Create and name it.
 	echo Copy down the token. It is case sensitive, and you will need to enter it shortly.
+	echo This token will also be needed for every additional speaker
 	echo 
 	echo 
 	read -p "Press enter to continue"
