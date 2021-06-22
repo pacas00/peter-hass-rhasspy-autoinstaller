@@ -341,7 +341,7 @@ save_stage
 mkdir -p /opt/PeterC_HA_AutoInstaller
 
 git clone $repourl /opt/PeterC_HA_AutoInstaller
-cp -R /opt/PeterC_HA_AutoInstaller/defaultconfigs/* /opt/PeterC_HA_AutoInstaller/
+cp -R /opt/PeterC_HA_AutoInstaller/defaultconfig/* /opt/PeterC_HA_AutoInstaller/
 chown -R $realuser /opt/PeterC_HA_AutoInstaller/
 
 
