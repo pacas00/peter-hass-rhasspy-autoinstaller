@@ -16,7 +16,7 @@ Speakers
 
 
 ### Supported Audio Drivers
-Note: Audio is not automatically configured.
+Note: Audio is not automatically configured, supported drivers are automatically installed.
 
 - Respeaker 2 Mic Hat
 
