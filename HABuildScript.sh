@@ -16,9 +16,20 @@ function goto
     exit
 }
 
+#Example Functions. For my own reference
+
 hello_world () {
    echo 'hello, world'
 }
+#hello_world
+
+my_function () {
+  echo "some result"
+  return 55
+}
+#my_function
+#echo $?
+
 
 load_vars () {
 	VARS=vars.sh
@@ -63,11 +74,6 @@ check_root () {
 	fi
 }
 
-my_function () {
-  echo "some result"
-  return 55
-}
-
 
 check_root
 
@@ -106,10 +112,14 @@ echo
 echo 
 read -p "Press enter to continue"
 
-
+#Todo: Supposedly, the drivers for the Respeaker 2 Mic Hat work on ubuntu
+#this is for future investigation / trying to make that work. 
+#if this can also be used to test if we are running Rasbian, that would be good.
 distroname=`lsb_release -i -s`
+
 realuser=`who am i | awk '{print $1}'`
 realuserhome=`eval echo "~$realuser"`
+
 systemip=`hostname -I | awk '{print $1}'`
 basestation=`hostname -I | awk '{print $1}'`
 LLAToken=1234
@@ -118,15 +128,9 @@ raspberry=`cat /sys/firmware/devicetree/base/model | awk '{print $1}'`
 
 repourl=https://github.com/pacas00/peter-hass-rhasspy-autoinstaller
 
-#my_function
-#echo $?
-#hello_world
 
 load_vars
 load_stage
-
-#clear
-#echo $realuser
 
 goto "stage0"
 
