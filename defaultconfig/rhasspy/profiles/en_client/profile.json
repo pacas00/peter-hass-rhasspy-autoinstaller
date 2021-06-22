@@ -9,12 +9,12 @@
         "system": "hass"
     },
     "home_assistant": {
-        "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI0NWM5NTAwMjlkYjg0MjZmOTZlYTE0M2ZlMjQ0ODFjYyIsImlhdCI6MTYyNDAwMzYwMiwiZXhwIjoxOTM5MzYzNjAyfQ.mi8QwUF5EXCGaWUMynZ4Rn7RLMv2RazTa44-NGaf16c",
-        "url": "http://192.168.0.159:8123/"
+        "access_token": "@%&Token&%@",
+        "url": "http://@%&IP&%@:8123/"
     },
     "intent": {
         "remote": {
-            "url": "http://192.168.0.159:12101/api/text-to-intent"
+            "url": "http://@%&IP&%@:12101/api/text-to-intent"
         },
         "satellite_site_ids": "speaker",
         "system": "remote"
@@ -38,7 +38,7 @@
     },
     "speech_to_text": {
         "remote": {
-            "url": "http://192.168.0.159:12101/api/speech-to-text"
+            "url": "http://@%&IP&%@:12101/api/speech-to-text"
         },
         "satellite_site_ids": "speaker",
         "system": "remote"
@@ -59,7 +59,7 @@
             "volume": "1"
         },
         "remote": {
-            "url": "http://192.168.0.159:12101/api/text-to-speech?play=false"
+            "url": "http://@%&IP&%@:12101/api/text-to-speech?play=false"
         },
         "system": "espeak"
     },

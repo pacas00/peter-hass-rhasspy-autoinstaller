@@ -71,19 +71,43 @@ my_function () {
 
 check_root
 
-	echo 
-	echo 
-	echo Installation should be performed via a GUI Terminal or SSH
-	echo Installing without being able to paste text from clipboard will make installation ABSOLUTELY PAINFUL
-	echo There are API keys you need to enter that are long and case sensitive.
-	echo 
-	echo
-	echo Press Ctrl+C now and switch to a sane connection method.
-	echo 
-	read -p "Press enter to continue"
+echo 
+echo 
+echo Installation should be performed via a GUI Terminal or SSH
+echo Installing without being able to paste text from clipboard will make installation ABSOLUTELY PAINFUL
+echo There are API keys you need to enter that are long and case sensitive.
+echo 
+echo
+echo Press Ctrl+C now and switch to an appropriate terminal if required.
+echo 
+echo 
+read -p "Press enter to continue"
+
+clear
+
+echo 
+echo 
+echo -------------------------------------------
+echo  Peter\'s Smart Assistant installer script
+echo -------------------------------------------
+echo 
+echo This installer will install either a Base Station or Remote Speaker setup for Rhasspy.
+echo It will also install Home Assistant (BaseStation) and dependencies (Docker, Portainer, PulseAudio, etc)
+echo 
+echo 
+echo Please note, Reinstallation is NOT SUPPORTED.
+echo If you make a mistake, please reflash a fresh operating system image onto your sd card and start again.
+echo 
+echo Editing and/or updating configs is not supported by this installer.
+echo 
+echo No support or warranty is given for use of this installer.
+echo This installer is a personal project to make my life easier for future installations.
+echo 
+echo 
+read -p "Press enter to continue"
 
 
-
+distroname=`lsb_release -i -s`
 realuser=`who am i | awk '{print $1}'`
 realuserhome=`eval echo "~$realuser"`
 systemip=`hostname -I | awk '{print $1}'`
@@ -121,6 +145,8 @@ select yn in "Yes" "No"; do
         No ) BASE=0; break;;
     esac
 done
+echo 
+echo 
 
 if [ "$BASE" = "1" ]; then
 	echo "Is this Base Station also a Speaker"
@@ -131,11 +157,15 @@ if [ "$BASE" = "1" ]; then
 		esac
 	done
 fi
+echo 
+echo 
 
 if [ "$BASE" = "0" ]; then
 	read -p "Please enter the Base Station's IP Address: " basestation
 	read -p "Please enter the LLA Token: " LLAToken
 fi
+echo 
+echo 
 
 if [ "$BASE" = 0 ] || [ "$BASESP" = 1 ]; then
 
@@ -147,24 +177,28 @@ if [ "$BASE" = 0 ] || [ "$BASESP" = 1 ]; then
 		esac
 	done
 fi
+echo 
+echo 
 
 #TODO Network
 
 echo 
 echo Your IP Address is $systemip, If this is the basestation, please make this static and remember the ip for any speaker units.
 echo
-sleep 15
+read -p "Press enter to continue"
+echo 
+echo
 
 STAGE=1
 save_vars
 save_stage
 : stage1
 
-	echo 
-	echo ---------------------
-	echo Installing Dependencies
-	echo ---------------------
-	echo 
+echo 
+echo -------------------------
+echo  Installing Dependencies
+echo -------------------------
+echo 
 
 apt-get update
 
@@ -172,9 +206,9 @@ apt-get install -y git
 
 if [ $BASE == 0 ] || [ $BASESP == 1]; then
 	echo 
-	echo ---------------------
-	echo Installing PulseAudio
-	echo ---------------------
+	echo -----------------------
+	echo  Installing PulseAudio
+	echo -----------------------
 	echo 
 	apt-get install -y pulseaudio paprefs pavucontrol-qt
 
@@ -183,6 +217,8 @@ fi
 
 mkdir -p /opt/PeterC_HA_AutoInstaller
 
+echo 
+echo
 
 STAGE=2
 save_stage
@@ -190,9 +226,9 @@ save_stage
 
 #Audio Drivers
 	echo 
-	echo ---------------------
-	echo Installing Selected Audio Drivers
-	echo ---------------------
+	echo -----------------------------------
+	echo  Installing Selected Audio Drivers
+	echo -----------------------------------
 	echo 
 
 if [ "$RESP2MIC" = "1" ]; then
@@ -230,10 +266,14 @@ save_stage
 : stage3
 
 	echo 
-	echo ---------------------
-	echo Network Configuration (TODO)
-	echo ---------------------
+	echo -----------------------------------------
+	echo  Network Configuration (Not Implemented)
+	echo -----------------------------------------
 	echo 
+
+
+echo 
+echo
 
 #Network
 
@@ -243,9 +283,9 @@ save_stage
 : stage4
 
 	echo 
-	echo ---------------------
-	echo Installing Docker
-	echo ---------------------
+	echo -------------------
+	echo  Installing Docker
+	echo -------------------
 	echo 
 
 curl -fsSL https://get.docker.com -o get-docker.sh
@@ -255,15 +295,18 @@ echo $realuser can use docker
 usermod -aG docker $realuser
 
 
+echo 
+echo
+
 STAGE=5
 save_stage
 : stage5
 
 #portainer
 echo 
-echo ---------------------
-echo Installing Portainer
-echo ---------------------
+echo ----------------------
+echo  Installing Portainer
+echo ----------------------
 echo 
 
 docker volume create portainer_data
@@ -277,14 +320,17 @@ echo
 read -p "Press enter to continue"
 
 
+echo 
+echo
+
 STAGE=6
 save_stage
 : stage6
 
 	echo 
-	echo ---------------------
-	echo Installing Default Configs
-	echo ---------------------
+	echo ----------------------------
+	echo  Installing Default Configs
+	echo ----------------------------
 	echo 
 
 mkdir -p /opt/PeterC_HA_AutoInstaller
@@ -294,6 +340,9 @@ cp -R /opt/PeterC_HA_AutoInstaller/defaultconfigs/* /opt/PeterC_HA_AutoInstaller
 chown -R $realuser /opt/PeterC_HA_AutoInstaller/
 
 
+echo 
+echo
+
 STAGE=7
 save_stage
 : stage7
@@ -301,9 +350,9 @@ save_stage
 #Home Assistant
 if [ $BASE == 1 ]; then
 	echo 
-	echo ---------------------
-	echo Installing Home Assistant
-	echo ---------------------
+	echo ---------------------------
+	echo  Installing Home Assistant
+	echo ---------------------------
 	echo 
 	
 	haimg=homeassistant/home-assistant:stable
@@ -359,9 +408,18 @@ if [ $BASE == 1 ]; then
 
 fi
 
+echo 
+echo
+
 STAGE=8
 save_stage
 : stage8
+
+	echo 
+	echo ------------------
+	echo  Updating Configs
+	echo ------------------
+	echo 
 
 if [ $BASE == 1 ]; then
 	echo  >> /opt/PeterC_HA_AutoInstaller/homeassistant/configuration.yaml
@@ -371,10 +429,28 @@ if [ $BASE == 1 ]; then
 	echo  >> /opt/PeterC_HA_AutoInstaller/homeassistant/configuration.yaml
 fi
 
+sed -i 's/@%&IP&%@/$basestation/g' /opt/PeterC_HA_AutoInstaller/rhasspy/profiles/en_base/profile.json
+sed -i 's/@%&IP&%@/$basestation/g' /opt/PeterC_HA_AutoInstaller/rhasspy/profiles/en_basesp/profile.json
+sed -i 's/@%&IP&%@/$basestation/g' /opt/PeterC_HA_AutoInstaller/rhasspy/profiles/en_client/profile.json
 
+
+sed -i 's/@%&Token&%@/$LLAToken/g' /opt/PeterC_HA_AutoInstaller/rhasspy/profiles/en_base/profile.json
+sed -i 's/@%&Token&%@/$LLAToken/g' /opt/PeterC_HA_AutoInstaller/rhasspy/profiles/en_basesp/profile.json
+sed -i 's/@%&Token&%@/$LLAToken/g' /opt/PeterC_HA_AutoInstaller/rhasspy/profiles/en_client/profile.json
+
+
+echo 
+echo
 STAGE=9
 save_stage
 : stage9
+
+	echo 
+	echo --------------------------------------
+	echo  Installing NodeRed (Not Implemented)
+	echo --------------------------------------
+	echo 
+
 
 #Node Red - TODO
 #I need to spend time investigating how to tie NR into the system
@@ -385,11 +461,21 @@ save_stage
 # How to return from NodeRed to HA (Assumption: that i can listen for a web request, and just respond to it.
 
 
+echo 
+echo
 STAGE=10
 save_stage
 : stage10
 
 #Rhasspy
+
+
+	echo 
+	echo --------------------
+	echo  Installing Rhasspy
+	echo --------------------
+	echo 
+
 
 mkdir -p /opt/PeterC_HA_AutoInstaller/rhasspy
 mkdir -p /opt/PeterC_HA_AutoInstaller/rhasspyimg/
@@ -428,10 +514,34 @@ chown -R $realuser /opt/PeterC_HA_AutoInstaller/rhasspy/
 
 
 echo 
-echo 
 echo Please browse to http://$systemip:12101 and complete the Rhasspy Setup Setup.
 echo 
 echo 
+echo There may be a prompt to download additional files at the top of the page. Make sure it downloads all required files and restarts.
+echo 
+echo Make sure you (BaseStation only) click the Train button in the top right corner of the webpage.
+echo
+echo 
 read -p "Press enter to continue"
+
+
+
+clear
+
+echo 
+echo -----------------------
+echo  Installation Complete
+echo -----------------------
+echo 
+echo Please note, Reinstallation is NOT SUPPORTED.
+echo If you made a mistake, please reflash a fresh operating system image onto your sd card and start again.
+echo 
+echo Editing and/or updating configs is not supported by this installer.
+echo 
+echo No support or warranty is given for use of this installer.
+echo This installer is a personal project to make my life easier for future installations.
+echo 
+read -p "Press enter to continue"
+
 
 echo end of file
