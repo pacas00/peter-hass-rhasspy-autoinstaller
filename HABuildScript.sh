@@ -98,7 +98,7 @@ echo  Peter\'s Smart Assistant installer script
 echo -------------------------------------------
 echo 
 echo This installer will install either a Base Station or Remote Speaker setup for Rhasspy.
-echo It will also install Home Assistant (BaseStation) and dependencies (Docker, Portainer, PulseAudio, etc)
+echo It will also install Home Assistant \(BaseStation\) and dependencies \(Docker, Portainer, PulseAudio, etc\)
 echo 
 echo 
 echo Please note, Reinstallation is NOT SUPPORTED.
