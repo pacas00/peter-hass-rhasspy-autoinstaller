@@ -1,8 +1,9 @@
 # peter-hass-rhasspy-autoinstaller
-An autoinstaller and set of scripts to make my life easier.
+An autoinstaller script and default configs to make my life easier.
 
 Primarilly built/tested for/on Raspbian.
-
+ 
+No support or warranty is given for use of this installer.
 
 ### Min Requirements
 
