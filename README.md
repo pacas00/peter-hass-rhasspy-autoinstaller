@@ -25,7 +25,7 @@ Note: Audio is not automatically configured, supported drivers are automatically
 
 ### Quick install 
 
-`curl -fsSL https://raw.githubusercontent.com/pacas00/peter-hass-rhasspy-autoinstaller/main/HABuildScript.sh -o HABuildScript.sh; sudo bash HABuildScript.sh`
+`curl -fsSL https://raw.githubusercontent.com/pacas00/peter-hass-rhasspy-autoinstaller/main/HABuildScript.sh -H 'Cache-Control: no-cache' -J -o HABuildScript.sh; sudo bash HABuildScript.sh`
 
 
 ### What gets installed
