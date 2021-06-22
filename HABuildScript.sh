@@ -249,8 +249,13 @@ if [ "$RESP2MIC" = "1" ]; then
 	
 	git clone https://github.com/HinTak/seeed-voicecard
 	cd seeed-voicecard
+	echo "STAGE=$STAGE"
+	echo "STAGE=$STAGE" > stage.sh
+	
 	export STAGE=3
 	save_stage
+	echo "STAGE=$STAGE"
+	echo "STAGE=$STAGE" > stage.sh
 	
 	source install.sh
 	
