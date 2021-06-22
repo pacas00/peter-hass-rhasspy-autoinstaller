@@ -16,6 +16,50 @@ function goto
     exit
 }
 
+
+load_vars () {
+	VARS=vars.sh
+	if [ -f "$VARS" ]; then
+		#echo "$VARS exists."
+		source $VARS
+#	else 
+		#echo "$VARS does not exist."
+	fi
+}
+
+save_vars () {
+	echo "BASE=$BASE" > vars.sh
+	echo "BASESP=$BASESP" >> vars.sh
+	echo "RESP2MIC=$RESP2MIC" >> vars.sh
+	echo "basestation=$basestation" >> vars.sh
+	echo "LLAToken=$LLAToken" >> vars.sh
+	chmod +x vars.sh
+}
+
+load_stage () {
+	STAGE=-1
+	if [ -f "stage.sh" ]; then
+		echo "stage.sh exists."
+		source stage.sh
+		goto "stage$STAGE"
+#	else 
+#		echo "stage.sh does not exist."
+	fi
+}
+
+save_stage () {
+	echo "STAGE=$STAGE" > stage.sh
+}
+
+check_root () {
+	if [ $USER == 'root' ]; then
+		echo "Running as root"
+	else 
+		echo "This installer MUST be run as root. Run this again with sudo"
+		exit;
+	fi
+}
+
 #Example Functions. For my own reference
 
 hello_world () {
@@ -205,7 +249,7 @@ if [ "$RESP2MIC" = "1" ]; then
 	
 	git clone https://github.com/HinTak/seeed-voicecard
 	cd seeed-voicecard
-	STAGE=3
+	export STAGE=3
 	save_stage
 	
 	source install.sh
@@ -503,52 +547,6 @@ echo This installer is a personal project to make my life easier for future inst
 echo 
 read -p "Press enter to continue"
 
-
-goto exit
-
-
-load_vars () {
-	VARS=vars.sh
-	if [ -f "$VARS" ]; then
-		#echo "$VARS exists."
-		source $VARS
-#	else 
-		#echo "$VARS does not exist."
-	fi
-}
-
-save_vars () {
-	echo "BASE=$BASE" > vars.sh
-	echo "BASESP=$BASESP" >> vars.sh
-	echo "RESP2MIC=$RESP2MIC" >> vars.sh
-	echo "basestation=$basestation" >> vars.sh
-	echo "LLAToken=$LLAToken" >> vars.sh
-	chmod +x vars.sh
-}
-
-load_stage () {
-	STAGE=-1
-	if [ -f "stage.sh" ]; then
-		echo "stage.sh exists."
-		source stage.sh
-		goto "stage$STAGE"
-	else 
-		echo "stage.sh does not exist."
-	fi
-}
-
-save_stage () {
-	echo "STAGE=$STAGE" > stage.sh
-}
-
-check_root () {
-	if [ $USER == 'root' ]; then
-		echo "Running as root"
-	else 
-		echo "This installer MUST be run as root. Run this again with sudo"
-		exit;
-	fi
-}
 
 : exit
 exit
