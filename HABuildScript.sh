@@ -248,15 +248,11 @@ if [ "$RESP2MIC" = "1" ]; then
 	read -p "Press enter to continue"
 	
 	git clone https://github.com/HinTak/seeed-voicecard
-	cd seeed-voicecard
-	echo "STAGE=$STAGE"
-	echo "STAGE=$STAGE" > stage.sh
 	
-	export STAGE=3
+	STAGE=3
 	save_stage
-	echo "STAGE=$STAGE"
-	echo "STAGE=$STAGE" > stage.sh
 	
+	cd seeed-voicecard
 	source install.sh
 	
 	# Fix SystemD Service
