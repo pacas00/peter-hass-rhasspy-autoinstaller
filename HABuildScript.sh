@@ -434,14 +434,14 @@ if [ $BASE == 1 ]; then
 	echo  >> /opt/PeterC_HA_AutoInstaller/homeassistant/configuration.yaml
 fi
 
-sed -i 's/@%&IP&%@/$basestation/g' /opt/PeterC_HA_AutoInstaller/rhasspy/profiles/en_base/profile.json
-sed -i 's/@%&IP&%@/$basestation/g' /opt/PeterC_HA_AutoInstaller/rhasspy/profiles/en_basesp/profile.json
-sed -i 's/@%&IP&%@/$basestation/g' /opt/PeterC_HA_AutoInstaller/rhasspy/profiles/en_client/profile.json
+sed -i "s/@%&IP&%@/$basestation/g" /opt/PeterC_HA_AutoInstaller/rhasspy/profiles/en_base/profile.json
+sed -i "s/@%&IP&%@/$basestation/g" /opt/PeterC_HA_AutoInstaller/rhasspy/profiles/en_basesp/profile.json
+sed -i "s/@%&IP&%@/$basestation/g" /opt/PeterC_HA_AutoInstaller/rhasspy/profiles/en_client/profile.json
 
 
-sed -i 's/@%&Token&%@/$LLAToken/g' /opt/PeterC_HA_AutoInstaller/rhasspy/profiles/en_base/profile.json
-sed -i 's/@%&Token&%@/$LLAToken/g' /opt/PeterC_HA_AutoInstaller/rhasspy/profiles/en_basesp/profile.json
-sed -i 's/@%&Token&%@/$LLAToken/g' /opt/PeterC_HA_AutoInstaller/rhasspy/profiles/en_client/profile.json
+sed -i "s/@%&Token&%@/$LLAToken/g" /opt/PeterC_HA_AutoInstaller/rhasspy/profiles/en_base/profile.json
+sed -i "s/@%&Token&%@/$LLAToken/g" /opt/PeterC_HA_AutoInstaller/rhasspy/profiles/en_basesp/profile.json
+sed -i "s/@%&Token&%@/$LLAToken/g" /opt/PeterC_HA_AutoInstaller/rhasspy/profiles/en_client/profile.json
 
 
 echo 
