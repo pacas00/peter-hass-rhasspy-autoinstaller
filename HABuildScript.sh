@@ -272,7 +272,7 @@ save_stage
 
 	echo 
 	echo -----------------------------------------
-	echo  Network Configuration (Not Implemented)
+	echo  Network Configuration \(Not Implemented\)
 	echo -----------------------------------------
 	echo 
 
@@ -452,7 +452,7 @@ save_stage
 
 	echo 
 	echo --------------------------------------
-	echo  Installing NodeRed (Not Implemented)
+	echo  Installing NodeRed \(Not Implemented\)
 	echo --------------------------------------
 	echo 
 
@@ -524,7 +524,7 @@ echo
 echo 
 echo There may be a prompt to download additional files at the top of the page. Make sure it downloads all required files and restarts.
 echo 
-echo Make sure you (BaseStation only) click the Train button in the top right corner of the webpage.
+echo Make sure you \(BaseStation only\) click the Train button in the top right corner of the webpage.
 echo
 echo 
 read -p "Press enter to continue"
