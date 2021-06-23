@@ -119,6 +119,7 @@ read -p "Press enter to continue"
 distroname=`lsb_release -i -s`
 
 realuser=`who am i | awk '{print $1}'`
+realuseruid=`id -u $realuser`
 realuserhome=`eval echo "~$realuser"`
 
 systemip=`hostname -I | awk '{print $1}'`
@@ -523,10 +524,10 @@ docker run -d -p 12101:12101 -p 12183:12183 \
       -v "/etc/alsa:/etc/alsa" \
       -v "/usr/share/alsa:/usr/share/alsa" \
       -v "$realuserhome/.config/pulse:/.config/pulse" \
-      -v "/run/user/$UID/pulse/native:/run/user/$UID/pulse/native" \
+      -v "/run/user/$realuseruid/pulse/native:/run/user/$realuseruid/pulse/native" \
       -v "/opt/PeterC_HA_AutoInstaller/rhasspy/profiles:/profiles" \
       -v "/etc/localtime:/etc/localtime:ro" \
-      --env "PULSE_SERVER=unix:/run/user/$UID/pulse/native" \
+      --env "PULSE_SERVER=unix:/run/user/$realuseruid/pulse/native" \
       --user "$(id -u $realuser)" \
       rhasspyimg \
       --user-profiles /profiles \
