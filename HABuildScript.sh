@@ -28,6 +28,7 @@ load_vars () {
 }
 
 save_vars () {
+	echo "PORTAINER=$PORTAINER" > vars.sh
 	echo "BASE=$BASE" > vars.sh
 	echo "BASESP=$BASESP" >> vars.sh
 	echo "RESP2MIC=$RESP2MIC" >> vars.sh
@@ -138,11 +139,12 @@ load_stage
 STAGE=0
 save_stage
 
+PORTAINER=0
 BASE=0
 BASESP=0
 RESP2MIC=0
 
-echo "Is this unit a Base Station"
+echo "Is this unit a Base Station?"
 select yn in "Yes" "No"; do
     case $yn in
         Yes ) BASE=1; break;;
@@ -153,7 +155,7 @@ echo
 echo 
 
 if [ "$BASE" = "1" ]; then
-	echo "Is this Base Station also a Speaker"
+	echo "Is this Base Station also a Speaker?"
 	select yn in "Yes" "No"; do
 		case $yn in
 			Yes ) BASESP=1; break;;
@@ -173,7 +175,7 @@ echo
 
 if [ "$BASE" = 0 ] || [ "$BASESP" = 1 ]; then
 
-	echo "Is a Respeaker 2 Mic Hat attached to this Pi. Answer no if not / not a Pi. (Driver only works on Pi)"
+	echo "Is a Respeaker 2 Mic Hat attached to this Pi. Answer no if not / not a Pi. (Driver only works on Pi + Rasbian)"
 	select yn in "Yes" "No"; do
 		case $yn in
 			Yes ) RESP2MIC=1; break;;
@@ -181,6 +183,16 @@ if [ "$BASE" = 0 ] || [ "$BASESP" = 1 ]; then
 		esac
 	done
 fi
+echo 
+echo 
+
+echo "Install Portainer CE?"
+select yn in "Yes" "No"; do
+    case $yn in
+        Yes ) PORTAINER=1; break;;
+        No ) PORTAINER=0; break;;
+    esac
+done
 echo 
 echo 
 
@@ -307,26 +319,30 @@ STAGE=5
 save_stage
 : stage5
 
-#portainer
-echo 
-echo ----------------------
-echo  Installing Portainer
-echo ----------------------
-echo 
+if [ "$PORTAINER" = "1" ]; then
 
-docker volume create portainer_data
-docker run -d -p 8000:8000 -p 9000:9000 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce
+	#portainer
+	echo 
+	echo ----------------------
+	echo  Installing Portainer
+	echo ----------------------
+	echo 
 
-echo 
-echo 
-echo Please browse to http://$systemip:9000 and complete the Portainer Setup.
-echo 
-echo 
-read -p "Press enter to continue"
+	docker volume create portainer_data
+	docker run -d -p 8000:8000 -p 9000:9000 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce
+
+	echo 
+	echo 
+	echo Please browse to http://$systemip:9000 and complete the Portainer Setup.
+	echo 
+	echo 
+	read -p "Press enter to continue"
 
 
-echo 
-echo
+	echo 
+	echo
+
+fi
 
 STAGE=6
 save_stage
